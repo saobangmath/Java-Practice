@@ -20,7 +20,7 @@ public class HelloWorld extends JPanel {
             _x++;
         }
 
-        repaint();
+         repaint();
     }
 
     private BufferedImage createImageWithText() {
