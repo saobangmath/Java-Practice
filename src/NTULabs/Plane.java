@@ -46,6 +46,12 @@ public class Plane {
             System.out.println("Seat already assigned to a customer.");
         }
         else{
+            for (int i = 0; i < CONST; i++){
+                if (this.seat[i].isOccupied() && this.seat[i].getCustomerId() == customerId){
+                    this.seat[i].unAssigned();
+                    break;
+                }
+            }
             this.seat[seatId - 1] = new PlaneSeat(seatId, customerId, true);
             --this.numEmptySeat;
             System.out.println("Seat Assigned!");
