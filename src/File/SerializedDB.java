@@ -13,7 +13,7 @@ public class SerializedDB{
             System.out.println("Who are you? \n" +
                     "Enter 1 for Admin mode \n" +
                     "Enter 2 for viewer mode \n" +
-                    "Enter 3 for exit mode \n");
+                    "Enter any other keys for exiting \n");
             try{
                 int choice = sc.nextInt();
                 switch (choice) {
@@ -37,8 +37,14 @@ public class SerializedDB{
                                     break;
                                 }
                             }
-                            if (authentication) System.out.println("Authentication \n"); // TODO - forward to the next page of amending database
-                            else System.out.println("NOT AN ADMIN YET! \n"); // TODO - back to the main
+                            if (authentication) {
+                                System.out.println("Authentication \n");
+                                // TODO - forward to the next page of amending database}
+                            }
+                            else {
+                                System.out.println("NOT AN ADMIN YET! \n");
+                                // TODO - back to the main}
+                            }
                         }
 
                         catch (IOException e) {
@@ -64,10 +70,10 @@ public class SerializedDB{
     // database set up
     private static void Initialization() {
         ArrayList<Admin>admins = new ArrayList<>();
-        admins.add(new Admin("TAI", "anhtaihsgs"));
+        admins.add(new Admin("Tai", "tai123"));
         admins.add(new Admin("Khanh", "khanh123"));
-        admins.add(new Admin("Long", "long123"));
-        admins.add(new Admin("Dat", "dat123"));
+        admins.add(new Admin("Rich", "rich123"));
+        admins.add(new Admin("Ryan", "ryan123"));
         try{
             FileOutputStream fileout = new FileOutputStream("admin.dat");
             ObjectOutputStream out = new ObjectOutputStream(fileout);

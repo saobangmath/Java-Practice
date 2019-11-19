@@ -2,31 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff2e7650-f59b-4691-8906-2b62335a78c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/SudokuSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bit_Manipulation_Techniques/InsertBit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/CountOfRangeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/LongestZigzag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/SumDividedByFive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/TotalNumberOfOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/BufferedStreamProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/SerializedDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/TxtFileProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/LargestArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/LargestFriendCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/LargestRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/LoveNines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/ProfitMaximization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashMap/QueenAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashMap/Triple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tutorial_6_CZ2002/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tutorial_6_CZ2002/Check.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tutorial_6_CZ2002/CheckingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Advanced_Data_Structure/FenwichTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/BigInteger/FirstTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/BigInteger/SquareOfSameDigitNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/CodeVita/ProbA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/CodeVita/ProbB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/CodeVita/ProbC$Graph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/CodeVita/ProbC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/CodeVita/ProbD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/CodeVita/ProbE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/CodeVita/ProbF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Dynamic_Programming/DiceRollingSimulation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Dynamic_Programming/LongestNonDecreasing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Dynamic_Programming/LongestPalindrome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Dynamic_Programming/MaximumEqualFrequency.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Dynamic_Programming/MaximumSubArrayProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Dynamic_Programming/RegExpMatching.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/GoogleKickStart/ProbA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/GoogleKickStart/ProbB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Graphs/DijkstraAlgorithm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Graphs/Graph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Graphs/PrimAlgorithm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/HashMap/FindSubArraySum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Interview/ArrayIntersection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Interview/DataStructure.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Interview/MultiThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Interview/TryCatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/MaximumMud.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/ProbA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/ProbC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/ProbD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/ProbE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Sorting/MergeKSortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/t.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Advanced_Data_Structure/FenwichTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BigInteger/FirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BigInteger/SquareOfSameDigitNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeVita/Fibonnaci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeVita/ProbA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeVita/ProbB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeVita/ProbC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeVita/ProbD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeVita/ProbE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeVita/ProbF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/DiceRollingSimulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/LongestNonDecreasing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/MaximumEqualFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/MaximumSubArrayProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/RegExpMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GoogleKickStart/ProbA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GoogleKickStart/ProbB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/DijkstraAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/PrimAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMap/FindSubArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interview/ArrayIntersection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interview/DataStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interview/MultiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interview/TryCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaximumMud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProbA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProbC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProbD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProbE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/MergeKSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/t.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/NTULabs/Plane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/NTULabs/Plane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NTULabs/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NTULabs/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTrainning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/File/SerializedDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/File/SerializedDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/NTULabs/Number.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/NTULabs/Number.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/NTULabs/PlaneApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/NTULabs/PlaneApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/NTULabs/Shape3DApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/NTULabs/Shape3DApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/secret.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/File/SerializedDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/File/SerializedDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NTULabs/Shape3DApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NTULabs/Shape3DApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,11 +96,109 @@
     <option name="myElementSize" value="15" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GoogleKickStart/ProbA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GoogleKickStart/ProbB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodeVita/ProbA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CodeVita/Fibonnaci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodeVita/ProbB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodeVita/ProbC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodeVita/ProbD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodeVita/ProbE.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodeVita/ProbF.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NTULabs/Shape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
@@ -57,38 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Solution.java" />
-        <option value="$PROJECT_DIR$/src/ReverseString.java" />
-        <option value="$PROJECT_DIR$/src/Dynamic_Programming/PrimeDigits.java" />
-        <option value="$PROJECT_DIR$/src/BufferString.java" />
-        <option value="$PROJECT_DIR$/src/ImageUtil/Constant.java" />
-        <option value="$PROJECT_DIR$/src/ImageUtil/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/Number_Theory/UglyNumber.java" />
-        <option value="$PROJECT_DIR$/src/NTULabs/PlaneSeat.java" />
-        <option value="$PROJECT_DIR$/src/NTULabs/PlaneApp.java" />
-        <option value="$PROJECT_DIR$/src/NTULabs/Number.java" />
-        <option value="$PROJECT_DIR$/src/NTULabs/String.java" />
-        <option value="$PROJECT_DIR$/src/NTULabs/WeeklySales.java" />
-        <option value="$PROJECT_DIR$/src/NTULabs/Sorting.java" />
-        <option value="$PROJECT_DIR$/src/NTULabs/SalePerson.java" />
-        <option value="$PROJECT_DIR$/src/Greedy/MinimumSwap.java" />
-        <option value="$PROJECT_DIR$/src/NTULabs/Shape.java" />
-        <option value="$PROJECT_DIR$/src/NTULabs/Shape2DApp.java" />
-        <option value="$PROJECT_DIR$/src/NTULabs/Circle.java" />
-        <option value="$PROJECT_DIR$/src/NTULabs/Rectangle.java" />
-        <option value="$PROJECT_DIR$/src/NTULabs/Triangle.java" />
-        <option value="$PROJECT_DIR$/src/NTULabs/Shape3DApp.java" />
-        <option value="$PROJECT_DIR$/src/Dynamic_Programming/LongestCommonString.java" />
-        <option value="$PROJECT_DIR$/src/Greedy/LargestArea.java" />
-        <option value="$PROJECT_DIR$/src/Greedy/LoveNines.java" />
-        <option value="$PROJECT_DIR$/src/Greedy/LargestRectangle.java" />
-        <option value="$PROJECT_DIR$/src/Greedy/LargestFriendCircle.java" />
-        <option value="$PROJECT_DIR$/src/Backtracking/SudokuSolver.java" />
-        <option value="$PROJECT_DIR$/src/Triple.java" />
-        <option value="$PROJECT_DIR$/src/Bit_Manipulation_Techniques/InsertBit.java" />
-        <option value="$PROJECT_DIR$/src/HashMap/Triple.java" />
-        <option value="$PROJECT_DIR$/src/HashMap/QueenAttack.java" />
-        <option value="$PROJECT_DIR$/src/Greedy/ProfitMaximization.java" />
         <option value="$PROJECT_DIR$/src/Dynamic_Programming/SumDividedByFive.java" />
         <option value="$PROJECT_DIR$/src/Dynamic_Programming/LongestZigzag.java" />
         <option value="$PROJECT_DIR$/src/Dynamic_Programming/t.java" />
@@ -106,8 +226,40 @@
         <option value="$PROJECT_DIR$/secret.dat" />
         <option value="$PROJECT_DIR$/src/File/User.java" />
         <option value="$PROJECT_DIR$/src/File/BufferedStreamProcessing.java" />
-        <option value="$PROJECT_DIR$/src/File/Admin.java" />
         <option value="$PROJECT_DIR$/src/File/SerializedDB.java" />
+        <option value="$PROJECT_DIR$/src/File/Admin.java" />
+        <option value="$PROJECT_DIR$/src/Dynamic_Programming/LongestNonDecreasing.java" />
+        <option value="$PROJECT_DIR$/src/Sorting/MergeKSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/Dynamic_Programming/DiceRollingSimulation.java" />
+        <option value="$PROJECT_DIR$/src/Dynamic_Programming/MaximumEqualFrequency.java" />
+        <option value="$PROJECT_DIR$/src/Dynamic_Programming/RegExpMatching.java" />
+        <option value="$PROJECT_DIR$/src/ProbD.java" />
+        <option value="$PROJECT_DIR$/src/ProbC.java" />
+        <option value="$PROJECT_DIR$/src/ProbA.java" />
+        <option value="$PROJECT_DIR$/src/BigInteger/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/NTULabs/Shape3DApp.java" />
+        <option value="$PROJECT_DIR$/src/ProbE.java" />
+        <option value="$PROJECT_DIR$/src/BigInteger/SquareOfSameDigitNum.java" />
+        <option value="$PROJECT_DIR$/src/Graphs/Graph.java" />
+        <option value="$PROJECT_DIR$/src/Dynamic_Programming/LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/MaximumMud.java" />
+        <option value="$PROJECT_DIR$/src/Graphs/Dijkstra.java" />
+        <option value="$PROJECT_DIR$/src/Graphs/DijkstraAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/AdvancedDataStructure.java" />
+        <option value="$PROJECT_DIR$/src/Advanced_Data_Structure/FenwichTree.java" />
+        <option value="$PROJECT_DIR$/src/Dynamic_Programming/MaximumSubArrayProduct.java" />
+        <option value="$PROJECT_DIR$/src/t.java" />
+        <option value="$PROJECT_DIR$/src/Interview/DataStructure.java" />
+        <option value="$PROJECT_DIR$/src/HashMap/FindSubArraySum.java" />
+        <option value="$PROJECT_DIR$/src/Interview/TryCatch.java" />
+        <option value="$PROJECT_DIR$/src/Interview/Thread.java" />
+        <option value="$PROJECT_DIR$/src/Interview/MultiThread.java" />
+        <option value="$PROJECT_DIR$/src/Interview/ArrayIntersection.java" />
+        <option value="$PROJECT_DIR$/src/GoogleKickStart/ProbB.java" />
+        <option value="$PROJECT_DIR$/src/CodeVita/ProbD.java" />
+        <option value="$PROJECT_DIR$/src/CodeVita/ProbC.java" />
+        <option value="$PROJECT_DIR$/src/CodeVita/ProbA.java" />
+        <option value="$PROJECT_DIR$/src/CodeVita/Fibonnaci.java" />
       </list>
     </option>
   </component>
@@ -118,8 +270,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="305" />
-    <option name="width" value="1950" />
+    <option name="x" value="-15" />
+    <option name="y" value="-15" />
+    <option name="width" value="1948" />
     <option name="height" value="2075" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -145,49 +298,13 @@
               <item name="a" type="b2602c69:ProjectViewProjectNode" />
               <item name="a" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Bit_Manipulation_Techniques" type="462c0819:PsiDirectoryNode" />
+              <item name="CodeVita" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="a" type="b2602c69:ProjectViewProjectNode" />
               <item name="a" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Dynamic_Programming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="File" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Greedy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="HashMap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ImageUtil" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="NTULabs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tutorial_6_CZ2002" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,8 +314,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570766385179" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebCam" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574135062761" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -233,7 +350,7 @@
     </option>
     <option name="contentProportion" value="0.13055366" />
   </component>
-  <component name="RunManager" selected="Application.SerializedDB">
+  <component name="RunManager" selected="Application.Fibonnaci">
     <configuration type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ImageUtil.HelloWorld" />
       <module name="a" />
@@ -254,18 +371,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializedDB" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="File.SerializedDB" />
-      <module name="a" />
+    <configuration name="Fibonnaci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="CodeVita.Fibonnaci" />
+      <module name="JavaTrainning" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeVita.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="CodeVita.Fibonnaci" />
+      <module name="JavaTrainning" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SerializedDB" />
+      <item itemvalue="Application.Fibonnaci" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Fibonnaci" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -291,8 +427,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27498323" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22736418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -307,7 +444,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.71888113" visible="true" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.71888113" visible="true" weight="0.31683168" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.28111887" side_tool="true" weight="0.33239037" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32956153" />
@@ -352,354 +489,23 @@
       <window_info anchor="right" id="Maven" order="8" weight="0.3286385" />
     </layout-to-restore>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MaximumMud.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NTULabs/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NTULabs/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NTULabs/Sorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2085">
-          <caret line="2108" selection-start-line="2108" selection-end-line="2108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NTULabs/WeeklySales.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NTULabs/Shape2DApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="67" selection-start-line="4" selection-start-column="8" selection-end-line="8" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NTULabs/Shape3DApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/LongestCommonString.java" />
-    <entry file="file://$PROJECT_DIR$/src/Greedy/LargestArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Greedy/LoveNines.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Greedy/MinimumSwap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NTULabs/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Triple.java" />
-    <entry file="file://$PROJECT_DIR$/src/Greedy/LargestRectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Greedy/LargestFriendCircle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashMap/QueenAttack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="115" column="2" selection-start-line="115" selection-start-column="2" selection-end-line="115" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Greedy/ProfitMaximization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/SumDividedByFive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bit_Manipulation_Techniques/InsertBit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashMap/Triple.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/t.java" />
-    <entry file="file://$PROJECT_DIR$/src/Tutorial_6_CZ2002/Check.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tutorial_6_CZ2002/CheckingAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NTULabs/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NTULabs/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntervalTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="108" column="1" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImageUtil/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tutorial_6_CZ2002/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NTULabs/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NTULabs/SalePerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outpuhghg.txt" />
-    <entry file="file://$PROJECT_DIR$/i.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Backtracking/SudokuSolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NTULabs/PlaneApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NTULabs/PlaneSeat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NTULabs/Plane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/File/TxtFileProcessing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/LongestZigzag.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/CountOfRangeSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.TXT">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/secret.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="61" selection-start-column="61" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.TXT">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/ObjectOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="1184" selection-start-line="1184" selection-end-line="1184" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/IOException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="1001" column="19" selection-start-line="1001" selection-start-column="19" selection-end-line="1001" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/File/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/File/SerializedDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="69" column="36" lean-forward="true" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/File/BufferedStreamProcessing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
@@ -714,6 +520,370 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorting_Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/LongestNonDecreasing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tutorial_6_CZ2002/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.dat" />
+    <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/MaximumEqualFrequency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/DiceRollingSimulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProbD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProbC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorting/MergeKSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/RegExpMatching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProbA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BigInteger/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/File/SerializedDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NTULabs/Shape2DApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NTULabs/Shape3DApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NTULabs/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashMap/QueenAttack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProbE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bit_Manipulation_Techniques/XOR_1_to_N.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BigInteger/SquareOfSameDigitNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NTULabs/Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NTULabs/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdvancedDataStructure.java" />
+    <entry file="file://$PROJECT_DIR$/src/Graphs/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphs/DijkstraAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Advanced_Data_Structure/FenwichTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/LongestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaximumMud.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/File/TxtFileProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/MaximumSubArrayProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interview/DataStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashMap/FindSubArraySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interview/TryCatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interview/MultiThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/File/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NTULabs/WeeklySales.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NTULabs/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interview/ArrayIntersection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleKickStart/ProbA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleKickStart/ProbB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeVita/ProbB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeVita/ProbC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeVita/ProbD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeVita/ProbA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeVita/ProbF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NTULabs/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeVita/ProbE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeVita/Fibonnaci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
