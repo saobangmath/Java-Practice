@@ -11,13 +11,18 @@ public class Task {
         // 1: max in general;
         long[][][] dp = new long[n][m][2];
         int y, x;
-        long result = -1;
         for (y = 0; y < n; y++){
             for (x = 0; x < m; x++){
                 board[y][x] = sc.nextInt();
                 dp[y][x][0] = dp[y][x][1] = -1;
             }
         }
+        solve(board, dp, n, m);
+    }
+
+    private static void solve(int[][] board, long[][][] dp, int n, int m) {
+        int y, x;
+        long result = -1;
         // for those in the last row
         for (y = 0; y < n; y++){
             if (board[y][m - 1] != -1){
@@ -70,7 +75,7 @@ public class Task {
                         up_sum += board[up][x];
 
                         if (sig == 0 && dp[up][x + 1][0] != -1){
-                           dp[y][x][0] = Math.max(dp[y][x][0],  dp[up][x + 1][0] + up_sum);
+                            dp[y][x][0] = Math.max(dp[y][x][0],  dp[up][x + 1][0] + up_sum);
                         }
                         dp[y][x][1] = Math.max(dp[y][x][0], dp[up][x + 1][1]);
                         dp[y][x][1] = Math.max(dp[y][x][1], dp[n - 1][x + 1][1]);

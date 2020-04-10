@@ -2,91 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff2e7650-f59b-4691-8906-2b62335a78c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Advanced_Data_Structure/CorruptionAndNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced_Data_Structure/Decomposition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced_Data_Structure/EulerIteration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced_Data_Structure/MinimumStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced_Data_Structure/OnSegment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced_Data_Structure/OnSumOfFraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced_Data_Structure/onChangingTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/AmazingBinarySeq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/BooleanExpr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/MatrixDetermination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/SecondMinimumNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/ShortestPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/StickerToSpellWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/SumN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/isSolvable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/kArrangementOfNElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BigInteger/CongruenceEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BigInteger/FootballSeason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BigInteger/MinMaxLCM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BigInteger/Nineteen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BigInteger/SameGCDs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codeforce/div2/ArraySharpen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codeforce/div2/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codeforce/div2/BlockedPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codeforce/div2/EBNE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codeforce/div2/EasterEggs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codeforce/div2/MagicStone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codeforce/div2/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codeforce/div2/MindControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codeforce/div2/Uniqueness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive_Programming/BeautifulInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive_Programming/ContestPreparing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive_Programming/DicePlaying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive_Programming/DominoesForYoung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive_Programming/GameDeveloping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive_Programming/InfinitePrefixes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive_Programming/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive_Programming/SemiFinals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/ArrayBeauty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/BeatifulBrackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/Bricks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/BytedanceTaskA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/FrogJumpingProbability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/Hierachy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/JuniorMathematician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/MaximumOfThreeSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/MinimumTransformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/MinimumTriangulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/booleanParentherization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/countSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/getMoneyAmount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/minCharacterChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/minCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/AlterShortestLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/NetworkWire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/SurroundedCapture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/shortestPathWithEdge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/LargestMonotonous.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/MaximumNestingDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/ReverseShuffleMerge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/ScheduleCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/SmallestMaxMinDiff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashMap/MostVisisted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Implementations/RestoringPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProbF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgramming/Rfc865UdpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TaskA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VNOI/KBuild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subtest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/Backtracking/SudokuSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Backtracking/SudokuSolver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/Dynamic_Programming/PrimeDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Dynamic_Programming/PrimeDigits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/META-INF/a.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/ProbA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ProbA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/t.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/t.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtracking/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtracking/SudokuSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic_Programming/PrimeDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic_Programming/PrimeDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProbA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProbA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/t.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/t.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -146,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="408">
+              <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -280,7 +197,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586454496585" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586493306999" />
     <property name="last_opened_file_path" value="D:/Y2-S2/CZ3006/Labs/Lab 2/Rfc865UdpClient.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -784,6 +701,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/KLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Advanced_Data_Structure/FenwichTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Advanced_Data_Structure/EulerIteration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -823,23 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Advanced_Data_Structure/FenwichTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TaskA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -849,8 +766,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="408">
+          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
         </state>
       </provider>
     </entry>
