@@ -2,33 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff2e7650-f59b-4691-8906-2b62335a78c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/GenerateParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bit_Manipulation_Techniques/PerfectTriples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive_Programming/Template.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GoogleKickStart/KickStart_2018/WiggleWalk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GoogleKickStart/KickStart_2019/DiagonalPuzzle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GoogleKickStart/KickStart_2019/H_Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/DistanceTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/EdgeWeightAssignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/GraphWithoutLongDirectPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/HappyKingdom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/EqualSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Equalization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/MaximalIntesection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Implementations/Arrangement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Implementations/MedianString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Number_Theory/ConcanatedMultiple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Number_Theory/MultiColorMakers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OldDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TaskC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforce/div2/PhoenixDistribution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive_Programming/Isolation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/Backtracking/ValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Backtracking/ValidParentheses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtracking/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtracking/ValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/GoogleKickStart/KickStart_2019/FastReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/GoogleKickStart/KickStart_2019/FastReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/GoogleKickStart/KickStart_2019/Tasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/GoogleKickStart/KickStart_2019/Tasks.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,8 +52,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Competitive_Programming/Template.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="59" selection-end-column="1" />
+            <state relative-caret-position="289">
+              <caret line="46" column="23" lean-forward="true" selection-end-line="59" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Codeforce/div2/PhoenixDistribution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-316">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,10 +74,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Competitive_Programming/Isolation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GoogleKickStart/KickStart_2018/WiggleWalk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Backtracking/BooleanExpr.java" />
-        <option value="$PROJECT_DIR$/src/Implementations/RestoringPermutation.java" />
         <option value="$PROJECT_DIR$/src/Advanced_Data_Structure/MinimumStack.java" />
         <option value="$PROJECT_DIR$/src/Graphs/NetworkWire.java" />
         <option value="$PROJECT_DIR$/src/VNOI/KBuild.java" />
@@ -163,6 +163,8 @@
         <option value="$PROJECT_DIR$/src/GoogleKickStart/KickStart_2019/DiagonalPuzzle.java" />
         <option value="$PROJECT_DIR$/src/GoogleKickStart/KickStart_2019/H_Index.java" />
         <option value="$PROJECT_DIR$/src/GoogleKickStart/KickStart_2018/WiggleWalk.java" />
+        <option value="$PROJECT_DIR$/src/Codeforce/div2/PhoenixDistribution.java" />
+        <option value="$PROJECT_DIR$/src/Competitive_Programming/Isolation.java" />
       </list>
     </option>
   </component>
@@ -172,11 +174,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="y" value="-15" />
-    <option name="width" value="3873" />
-    <option name="height" value="2093" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1905" />
+    <option name="width" value="1948" />
+    <option name="height" value="2075" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -195,6 +196,12 @@
               <item name="a" type="b2602c69:ProjectViewProjectNode" />
               <item name="a" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="div2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="a" type="b2602c69:ProjectViewProjectNode" />
@@ -241,12 +248,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588096455290" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588381307612" />
     <property name="last_opened_file_path" value="D:/Y2-S2/CZ3006/Labs/Lab 2/Rfc865UdpClient.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -288,7 +295,7 @@
     </option>
     <option name="contentProportion" value="0.13055366" />
   </component>
-  <component name="RunManager" selected="Application.H_Index">
+  <component name="RunManager" selected="Application.Isolation">
     <configuration type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ImageUtil.HelloWorld" />
       <module name="a" />
@@ -340,8 +347,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="H_Index" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoogleKickStart.KickStart_2019.H_Index" />
+    <configuration name="Isolation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Competitive_Programming.Isolation" />
       <module name="JavaTrainning" />
       <extension name="coverage">
         <pattern>
@@ -356,11 +363,11 @@
     <list>
       <item itemvalue="Application.Amazing" />
       <item itemvalue="Application.CongruenceEquation" />
-      <item itemvalue="Application.H_Index" />
+      <item itemvalue="Application.Isolation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.H_Index" />
+        <item itemvalue="Application.Isolation" />
       </list>
     </recent_temporary>
   </component>
@@ -387,10 +394,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <frame x="762" y="0" width="779" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19114688" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37864077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -405,7 +412,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.71888113" visible="true" weight="0.24893919" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.71888113" visible="true" weight="0.25142857" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3281471" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32531825" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.28111887" weight="0.3281471" />
@@ -473,20 +480,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="3256" column="9" selection-start-line="3256" selection-start-column="9" selection-end-line="3256" selection-end-column="9" />
-          <folding>
-            <element signature="e#24535#24536#0" expanded="true" />
-            <element signature="e#24581#24582#0" expanded="true" />
-            <element signature="e#129105#129106#0" expanded="true" />
-            <element signature="e#129159#129160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashMap/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/Advanced_Data_Structure/CorruptionAndNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -842,20 +835,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Competitive_Programming/Template.java">
+    <entry file="file://$PROJECT_DIR$/src/GoogleKickStart/KickStart_2018/WiggleWalk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="59" selection-end-column="1" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleKickStart/KickStart_2018/WiggleWalk.java">
+    <entry file="file://$PROJECT_DIR$/src/Codeforce/div2/PhoenixDistribution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="-316">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Competitive_Programming/Template.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="46" column="23" lean-forward="true" selection-end-line="59" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Competitive_Programming/Isolation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
