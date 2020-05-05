@@ -17,44 +17,45 @@ public class Template {
         solver.solve(in, out);
         out.close();
     }
-}
-class Task{
-    public void solve(InputReader in, PrintWriter out) {
-        int test = Integer.parseInt(in.nextToken());
-        for (int i = 0; i < test; i++) {
+    // main solver
+    static class Task{
+        public void solve(InputReader in, PrintWriter out) {
+            int test = Integer.parseInt(in.nextToken());
+            for (int i = 0; i < test; i++) {
 
+            }
         }
     }
-}
+    // fast input reader class;
+    static class InputReader {
+        BufferedReader br;
+        StringTokenizer st;
 
-class InputReader {
-    BufferedReader br;
-    StringTokenizer st;
-
-    public InputReader(InputStream stream) {
-        br = new BufferedReader(new InputStreamReader(stream));
-    }
-
-    public String nextToken() {
-        while (st == null || !st.hasMoreTokens()) {
-            String line = null;
-            try {
-                line = br.readLine();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-            if (line == null) {
-                return null;
-            }
-            st = new StringTokenizer(line);
+        public InputReader(InputStream stream) {
+            br = new BufferedReader(new InputStreamReader(stream));
         }
-        return st.nextToken();
-    }
 
-    public int nextInt() {
-        return Integer.parseInt(nextToken());
-    }
-    public long nextLong(){
-        return Long.parseLong(nextToken());
+        public String nextToken() {
+            while (st == null || !st.hasMoreTokens()) {
+                String line = null;
+                try {
+                    line = br.readLine();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+                if (line == null) {
+                    return null;
+                }
+                st = new StringTokenizer(line);
+            }
+            return st.nextToken();
+        }
+
+        public int nextInt() {
+            return Integer.parseInt(nextToken());
+        }
+        public long nextLong(){
+            return Long.parseLong(nextToken());
+        }
     }
 }
