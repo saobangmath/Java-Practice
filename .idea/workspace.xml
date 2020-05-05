@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff2e7650-f59b-4691-8906-2b62335a78c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Advanced_Data_Structure/RestorePermutationWithSortedSegment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Number_Theory/AnotherCountingProb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Advanced_Data_Structure/MultipleTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/PlacingRocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Competitive_Programming/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Competitive_Programming/Template.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Competitive_Programming/InputReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Competitive_Programming/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Competitive_Programming/Template.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Competitive_Programming/Template.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Competitive_Programming/Template.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="60" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,10 +37,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Advanced_Data_Structure/RestorePermutationWithSortedSegment.java">
+        <entry file="file://$PROJECT_DIR$/src/Advanced_Data_Structure/MultipleTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+            <state relative-caret-position="221">
+              <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/PlacingRocks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,8 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Dynamic_Programming/FrogJumpingProbability.java" />
-        <option value="$PROJECT_DIR$/src/Graphs/shortestPathWithEdge.java" />
         <option value="$PROJECT_DIR$/src/SocketProgramming/Rfc865UdpClient.java" />
         <option value="$PROJECT_DIR$/src/Advanced_Data_Structure/OnSegment.java" />
         <option value="$PROJECT_DIR$/src/Advanced_Data_Structure/CorruptionAndNumber.java" />
@@ -114,6 +126,8 @@
         <option value="$PROJECT_DIR$/src/Advanced_Data_Structure/RestorePermutationWithSortedSegment.java" />
         <option value="$PROJECT_DIR$/src/Number_Theory/AnotherCountingProb.java" />
         <option value="$PROJECT_DIR$/src/Competitive_Programming/Template.java" />
+        <option value="$PROJECT_DIR$/src/Advanced_Data_Structure/MultipleTestCase.java" />
+        <option value="$PROJECT_DIR$/src/Dynamic_Programming/PlacingRocks.java" />
       </list>
     </option>
   </component>
@@ -123,9 +137,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="y" value="-15" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1905" />
     <option name="width" value="1948" />
     <option name="height" value="2075" />
   </component>
@@ -169,6 +182,12 @@
               <item name="a" type="b2602c69:ProjectViewProjectNode" />
               <item name="a" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Dynamic_Programming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Graphs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -192,7 +211,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588647657232" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588654757195" />
     <property name="last_opened_file_path" value="D:/Y2-S2/CZ3006/Labs/Lab 2/Rfc865UdpClient.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -234,7 +253,7 @@
     </option>
     <option name="contentProportion" value="0.13055366" />
   </component>
-  <component name="RunManager" selected="Application.AnotherCountingProb">
+  <component name="RunManager" selected="Application.MultipleTestCase">
     <configuration type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ImageUtil.HelloWorld" />
       <module name="a" />
@@ -271,19 +290,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnotherCountingProb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Number_Theory.AnotherCountingProb" />
-      <module name="JavaTrainning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Implementations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CongruenceEquation" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="BigInteger.CongruenceEquation" />
@@ -299,14 +305,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MultipleTestCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Advanced_Data_Structure.MultipleTestCase" />
+      <module name="JavaTrainning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Amazing" />
       <item itemvalue="Application.CongruenceEquation" />
-      <item itemvalue="Application.AnotherCountingProb" />
+      <item itemvalue="Application.MultipleTestCase" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnotherCountingProb" />
+        <item itemvalue="Application.MultipleTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -333,10 +352,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <frame x="762" y="0" width="779" height="830" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19248827" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39805827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -351,7 +370,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.71888113" visible="true" weight="0.27439886" />
+      <window_info anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.71888113" visible="true" weight="0.27714285" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32390383" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32531825" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.28111887" weight="0.3281471" />
@@ -419,23 +438,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/KLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Advanced_Data_Structure/FenwichTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaTrainning.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -834,8 +836,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Competitive_Programming/Template.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="60" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Advanced_Data_Structure/MultipleTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/PlacingRocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
