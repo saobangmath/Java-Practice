@@ -15,50 +15,77 @@ public class SortingVases {
     // main solver
     static class Task{
         static int[] p = new int[20];
-        static int[][] cost = new int[20][20];
         static int[] a =  new int[20];
         static boolean[] mark = new boolean[20];
         public void solve(InputReader in, PrintWriter out) {
-            int test = Integer.parseInt(in.nextToken());
+            int test = in.nextInt();
             for (int i = 0; i < test; i++) {
                 int n = in.nextInt();
                 int m = in.nextInt();
-                int j, k;
+                int j;
+                ArrayList<Integer>[] E = new ArrayList[n + 1];
                 for (j = 1; j <= n; j++){
                     mark[j] = false;
                     a[j] = j;
-                    for (k = 1; k <= n; k++){
-                        cost[i][j] = 0;
-                    }
                 }
-                // read current position
+                // read current position;
                 for (j = 1; j <= n; j++){
                     p[j] = in.nextInt();
+                    E[j] = new ArrayList<>();
                 }
-                // read the cost for each pair of points
+                 // graph maker;
                 for (j = 0; j < m; j++){
                     int x = in.nextInt();
                     int y = in.nextInt();
-                    cost[x][y] = 0;
+                    E[x].add(y); E[y].add(x);
                 }
                 int cnt = 0;
                 for (int src = 1; src <= n; src++){
                     if (!mark[src]){
-                        cnt += dfs(src);
+                        cnt += dfs(src, mark, E);
                     }
                 }
                 out.println(cnt);
             }
         }
 
-        private int dfs(int src) {
+        private int dfs(int src, boolean[] mark, ArrayList<Integer>E[]) {
             int pos = a[p[src]];
+            mark[p[src]] = true;
             int cnt = 0;
             while (pos != src){
-                cnt++;
+                int x = pos;
+                int y = a[p[pos]];
+                if (!isReachable(x, y, E)){
+                   cnt++;
+                }
                 pos = a[p[pos]];
+                mark[pos] = true;
             }
-            return cnt - 1;
+            mark[src] = true;
+            return cnt;
+        }
+
+        private boolean isReachable(int x, int y, ArrayList<Integer>[] E) {
+            Queue<Integer> q = new LinkedList<>();
+            boolean mark[] = new boolean[E.length];
+            q.add(x);
+            while (!q.isEmpty()){
+                int top = q.poll();
+                mark[top] = true;
+                if (top == y){
+                    return true;
+                }
+                else{
+                    for (int dest : E[top]){
+                        if (!mark[dest]){
+                            mark[dest] = true;
+                            q.add(dest);
+                        }
+                    }
+                }
+            }
+            return false;
         }
     }
     // fast input reader class;
