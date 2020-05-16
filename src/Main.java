@@ -1,9 +1,13 @@
-import Implementations.ArrayConstruction;
-
 import java.io.BufferedReader;
 import java.util.*;
 import java.io.*;
 
+/**
+ * @author Tran Anh Tai
+ * Task C div 2 contest #643
+ * Kind of problem that not hard to think but implementing has many corner cases!
+ * Need to well-prepared more about this kind of problem
+ */
 public class Main {
     public static void main(String[] args) {
         InputReader in = new InputReader(System.in);
@@ -16,30 +20,33 @@ public class Main {
 
     static class Task {
         public void solve(InputReader in, PrintWriter out) {
-            int n = in.nextInt();
-            int i, j;
-            int[] cnt = new int[n];
-            boolean[] mark = new boolean[n];
-            ArrayList<Integer> E[] = new ArrayList[n];
-            for (i = 0; i < n; i++){
-                E[i] = new ArrayList<>();
+            int a = in.nextInt();
+            int b = in.nextInt();
+            int c = in.nextInt();
+            int d = in.nextInt();
+            int x, y, z;
+            int s, e;
+            long result = 0;
+            // choosing the maximum length first;
+            for (z = c; z <= d; z++){
+                int start = z - b + 1;
+                int end = z - b + (b - a) + 1;
+                if (end <= b){
+                    result += (long)(c - b + 1) * (b - a + 1);
+                }
+                else if (b <= start){
+                    e = Math.max(0,c - start + 1);
+                    s = Math.max(0, e - (b - a));
+                    result += (long)(s + e) * (e - s + 1) / 2;
+                }
+                else{
+                    result += (long)(2 * b - z) * (c - b + 1);
+                    e = (c - b);
+                    s = Math.max(0, e - (z - b - a));
+                    result += (long)(s + e) * (e - s + 1) / 2;
+                }
             }
-            for (i = 0; i < n - 1; i++){
-                int x = in.nextInt() - 1;
-                int y = in.nextInt() - 1;
-                E[x].add(y);
-            }
-            for (int src = 0; src < n; src++){
-                dfs(src, E, cnt, mark);
-            }
-            Arrays.sort(cnt);
-            for (i = 0; i < n; i++){
-                out.print(cnt[i] + " ");
-            }
-        }
-
-        private void dfs(int src, ArrayList<Integer>[] E, int[] cnt, boolean[] mark) { // after this step, the cnt[src] is the total indirect roads;
-
+            out.println(result);
         }
     }
     // fast input reader class;

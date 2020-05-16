@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff2e7650-f59b-4691-8906-2b62335a78c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/DecreaseHeights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/KPeriodicGarland.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/CapitalForTreeLand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/PrefixEnlighten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/TreeQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Implementations/ArrayConstruction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/MakeKEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/RestorerDistance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Graphs/TreeQueries$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Graphs/TreeQueries$InputReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Graphs/TreeQueries$Task$CustomComparable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Graphs/TreeQueries$Task$CustomComparable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Graphs/TreeQueries$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Graphs/TreeQueries$Task.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/Main$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Main$InputReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/Main$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Main$Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/String/IrreducibleAnagrams$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/String/IrreducibleAnagrams$InputReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/String/IrreducibleAnagrams$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/String/IrreducibleAnagrams$Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/String/IrreducibleAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/String/IrreducibleAnagrams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/TreeQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/TreeQueries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,11 +43,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="394">
+              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
+                <element signature="e#1528#1529#0" expanded="true" />
+                <element signature="e#1560#1561#0" expanded="true" />
+                <element signature="e#1618#1619#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Greedy/RestorerDistance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="88" column="13" lean-forward="true" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,19 +85,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Graphs/TreeQueries.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Greedy/MakeKEquals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="68" column="35" lean-forward="true" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
+            <state relative-caret-position="136">
+              <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3281#3282#0" expanded="true" />
-                <element signature="e#3359#3360#0" expanded="true" />
-                <element signature="e#3889#3890#0" expanded="true" />
-                <element signature="e#3949#3950#0" expanded="true" />
-                <element signature="e#3981#3982#0" expanded="true" />
-                <element signature="e#4039#4040#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#1446#1447#0" expanded="true" />
+                <element signature="e#1506#1507#0" expanded="true" />
+                <element signature="e#1538#1539#0" expanded="true" />
+                <element signature="e#1596#1597#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Graphs/HappyKingdom.java" />
-        <option value="$PROJECT_DIR$/src/Greedy/EqualSubstring.java" />
         <option value="$PROJECT_DIR$/src/Greedy/MaximalIntesection.java" />
         <option value="$PROJECT_DIR$/src/Backtracking/ValidParentheses.java" />
         <option value="$PROJECT_DIR$/src/Number_Theory/ConcanatedMultiple.java" />
@@ -153,10 +165,12 @@
         <option value="$PROJECT_DIR$/src/Implementations/ArrayContruction.java" />
         <option value="$PROJECT_DIR$/src/Implementations/ArrayConstruction.java" />
         <option value="$PROJECT_DIR$/src/Dynamic_Programming/DecreaseHeights.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Dynamic_Programming/KPeriodicGarland.java" />
         <option value="$PROJECT_DIR$/src/Graphs/CapitalForTreeLand.java" />
         <option value="$PROJECT_DIR$/src/Graphs/TreeQueries.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/MakeKEquals.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/RestorerDistance.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -167,10 +181,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="77" />
-    <option name="y" value="1705" />
-    <option name="width" value="3875" />
-    <option name="height" value="2195" />
+    <option name="x" value="1905" />
+    <option name="width" value="1948" />
+    <option name="height" value="2075" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -206,6 +219,12 @@
               <item name="a" type="b2602c69:ProjectViewProjectNode" />
               <item name="a" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Greedy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Implementations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -217,7 +236,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589618865778" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589648165261" />
     <property name="last_opened_file_path" value="D:/Y2-S2/CZ3006/Labs/Lab 2/Rfc865UdpClient.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -259,7 +278,7 @@
     </option>
     <option name="contentProportion" value="0.13055366" />
   </component>
-  <component name="RunManager" selected="Application.TreeQueries">
+  <component name="RunManager" selected="Application.Main">
     <configuration type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ImageUtil.HelloWorld" />
       <module name="a" />
@@ -325,8 +344,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeQueries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.TreeQueries" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JavaTrainning" />
       <extension name="coverage">
         <pattern>
@@ -342,11 +361,11 @@
       <item itemvalue="Application.Amazing" />
       <item itemvalue="Application.CongruenceEquation" />
       <item itemvalue="Application.Bitwise" />
-      <item itemvalue="Application.TreeQueries" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TreeQueries" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Bitwise" />
       </list>
     </recent_temporary>
@@ -374,10 +393,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <frame x="762" y="0" width="779" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19986586" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.041608877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -392,9 +411,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.71888113" visible="true" weight="0.19660537" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32531825" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.71888113" visible="true" weight="0.19857143" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32428572" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.28111887" weight="0.3281471" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49784482" weight="0.10181237" />
@@ -407,7 +426,7 @@
       <window_info anchor="right" id="Maven" order="8" weight="0.3286385" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.020120725" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3744799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -422,9 +441,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.71888113" weight="0.19094767" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32531825" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32428572" />
+      <window_info anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.71888113" visible="true" weight="0.19857143" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32531825" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.28111887" weight="0.3281471" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49784482" weight="0.10181237" />
@@ -433,7 +452,7 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.5021552" side_tool="true" weight="0.102013424" />
+      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.5021552" side_tool="true" visible="true" weight="0.21052632" />
       <window_info anchor="right" id="Maven" order="8" weight="0.3286385" />
     </layout-to-restore>
   </component>
@@ -466,26 +485,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Graphs/GraphWithoutLongDirectPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GoogleKickStart/KickStart_2019/DiagonalPuzzle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -887,16 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Competitive_Programming/Template.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="59" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -918,28 +907,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Greedy/MakeKEquals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+            <element signature="e#1506#1507#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graphs/TreeQueries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="68" column="35" lean-forward="true" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
+        <state relative-caret-position="178">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3281#3282#0" expanded="true" />
-            <element signature="e#3359#3360#0" expanded="true" />
-            <element signature="e#3889#3890#0" expanded="true" />
-            <element signature="e#3949#3950#0" expanded="true" />
-            <element signature="e#3981#3982#0" expanded="true" />
-            <element signature="e#4039#4040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Competitive_Programming/Template.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/RestorerDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="88" column="13" lean-forward="true" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1528#1529#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
           </folding>
         </state>
       </provider>

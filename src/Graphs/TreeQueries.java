@@ -75,17 +75,26 @@ public class TreeQueries {
                 m--;
             }
         }
+
+        /**
+         * Depth first search on the tree to record first and last moment the edge passes through the node;
+         * @param src
+         * @param E
+         * @param par
+         * @param mark
+         * @param d
+         */
         private void dfs(int src, ArrayList<Integer>[] E, int[] par, boolean[] mark, int d) {
             mark[src] = true;
             depth[src] = d;
-            tin[src] = T++;
+            tin[src] = T++; // first passes;
             for (int dest : E[src]){
                 if (!mark[dest]){
                     par[dest] = src;
                     dfs(dest, E, par, mark, d + 1);
                 }
             }
-            tout[src] = T++;
+            tout[src] = T++; // last passes; when dfs through all its children;
         }
         // custom comparable to sort the vertices by their depth;
         static class CustomComparable implements Comparator<Integer>{
