@@ -4,9 +4,6 @@ import java.io.*;
 
 /**
  * @author Tran Anh Tai
- * Task C div 2 contest #643
- * Kind of problem that not hard to think but implementing has many corner cases!
- * Need to well-prepared more about this kind of problem
  */
 public class Main {
     public static void main(String[] args) {
@@ -19,34 +16,51 @@ public class Main {
     // main solver
 
     static class Task {
+        static int a[] = new int[200001];
+        static long pre1[] = new long[200001]; // a1, a1 -a2; a1 - a2 + a3, .......;
+        static long pre2[] = new long[200001]; // a1, a1 - 2 * a2 + 3 * a3 - .......;
         public void solve(InputReader in, PrintWriter out) {
-            int a = in.nextInt();
-            int b = in.nextInt();
-            int c = in.nextInt();
-            int d = in.nextInt();
-            int x, y, z;
-            int s, e;
-            long result = 0;
-            // choosing the maximum length first;
-            for (z = c; z <= d; z++){
-                int start = z - b + 1;
-                int end = z - b + (b - a) + 1;
-                if (end <= b){
-                    result += (long)(c - b + 1) * (b - a + 1);
-                }
-                else if (b <= start){
-                    e = Math.max(0,c - start + 1);
-                    s = Math.max(0, e - (b - a));
-                    result += (long)(s + e) * (e - s + 1) / 2;
-                }
-                else{
-                    result += (long)(2 * b - z) * (c - b + 1);
-                    e = (c - b);
-                    s = Math.max(0, e - (z - b - a));
-                    result += (long)(s + e) * (e - s + 1) / 2;
-                }
-            }
-            out.println(result);
+           int t = in.nextInt();
+           for (int test = 1; test <= t; test++){
+               out.print("Case #" + test + ": ");
+               int n = in.nextInt();
+               int q = in.nextInt();
+               int i;
+               // store pre1[i], pre2[i];
+               for (i = 1; i <= n; i++){
+                   a[i] = in.nextInt();
+                   if (i % 2 == 1){
+                       pre1[i] += a[i];
+                       pre2[i] += i * a[i];
+                   }
+                   else{
+                        pre1[i] -= a[i];
+                        pre2[i] -= i * a[i];
+                   }
+               }
+               for (i = 1; i <= q; i++){
+                   String[] token = in.nextToken().split(" ");
+                   char ins = token[0].charAt(0);
+                   int l = Integer.parseInt(token[1]);
+                   int r = Integer.parseInt(token[2]);
+                   if (ins == 'U'){
+                       int inc = r - a[l];
+                       a[l] = r;
+                       if (i % 2 == 1){
+                           pre1[i] += inc;
+                           pre2[i] += inc * i;
+                       }
+                       else{
+                           pre1[i] -= inc;
+                           pre2[i] -= inc * i;
+                       }
+                   }
+                   // query from l to r;
+                   else{
+
+                   }
+               }
+           }
         }
     }
     // fast input reader class;

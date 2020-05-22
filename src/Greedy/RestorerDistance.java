@@ -2,6 +2,19 @@ package Greedy;
 import java.util.*;
 import java.io.*;
 
+/**
+ * @author Tran Anh Tai
+ * Prob E div 2 contest #643
+ * We have some pillars of bricks with different heights h1, h2, ...
+ * We have 3 available operations:
+ * 1. Add one brick to the top of any pillar: cost A
+ * 2. Remove one brick from the top of any pillar: cost R
+ * 3. Move one brick from the top of any pillar to another one: cost M
+ * The target is finding the minimum cost available to get all of the pillars in the same height before some operations.
+ */
+import java.util.*;
+import java.io.*;
+
 public class RestorerDistance {
     public static void main(String[] args) {
         InputStream inputStream = System.in;
@@ -49,7 +62,7 @@ public class RestorerDistance {
                 }
                 else{
                     long remove = (total - pre[i]) - h[i - 1] * (n - i);
-                    long add = h[i - 1] * i - pre[i];
+                    long add = h[i - 1] * (i) - pre[i];
                     if (remove >= add){
                         // add: add * a + remove * r;
                         //remove than add: add* m + (remove - add) * r;
@@ -72,22 +85,53 @@ public class RestorerDistance {
                     }
                 }
             }
-            if (total % n == 0){ // change everything to the normal;
-                total = total / n;
-                long more =  0;
+            long[] threshold = new long[2];
+            threshold[0] = divide(total, n);
+            threshold[1] = total / n;
+            for (int j = 0; j < 2; j++){
+                total = threshold[j];
+                long remove = 0;
+                long add = 0;
                 for (int i = 0; i < n; i++){
-                    if (h[i] >= total){
-                        more += (h[i] - total);
+                    if (h[i] > total){
+                        remove += (h[i] - total);
+                    }
+                    else{
+                        add += (total - h[i]);
                     }
                 }
-                if (a + r > m){
-                    result = Math.min(result, more * m);
+                if (remove >= add){
+                    // add: add * a + remove * r;
+                    //remove than add: add* m + (remove - add) * r;
+                    if (a > m - r){
+                        result= Math.min(result, add * (m - r)  + remove * r);
+                    }
+                    else{
+                        result = Math.min(result, add * a + remove * r);
+                    }
                 }
                 else{
-                    result = Math.min(result, more  * (a + r));
+                    // remove: add * a + remove * r;
+                    // add than remove: remove * m + (add - remove) * a;
+                    if (m - a > r){
+                        result = Math.min(result, add * a + remove * r);
+                    }
+                    else{
+                        result = Math.min(result, add * a + remove * (m - a));
+                    }
                 }
             }
             out.println(result);
+        }
+
+        private long divide(long total, int n) {
+            long result = total / n;
+            if (result * n == total){
+                return result;
+            }
+            else{
+                return result + 1;
+            }
         }
     }
     // fast input reader class;
