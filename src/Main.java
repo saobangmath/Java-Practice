@@ -20,47 +20,72 @@ public class Main {
         static long pre1[] = new long[200001]; // a1, a1 -a2; a1 - a2 + a3, .......;
         static long pre2[] = new long[200001]; // a1, a1 - 2 * a2 + 3 * a3 - .......;
         public void solve(InputReader in, PrintWriter out) {
-           int t = in.nextInt();
-           for (int test = 1; test <= t; test++){
-               out.print("Case #" + test + ": ");
-               int n = in.nextInt();
-               int q = in.nextInt();
-               int i;
-               // store pre1[i], pre2[i];
-               for (i = 1; i <= n; i++){
-                   a[i] = in.nextInt();
-                   if (i % 2 == 1){
-                       pre1[i] += a[i];
-                       pre2[i] += i * a[i];
-                   }
-                   else{
-                        pre1[i] -= a[i];
-                        pre2[i] -= i * a[i];
-                   }
+           long u = in.nextLong();
+           long v = in.nextLong();
+           if (u > v || v % 2 != u % 2){
+               out.println(-1);
+               return;
+           }
+           if (u == v){
+               if (u != 0){
+                   out.println(1);
+                   out.println(u);
                }
-               for (i = 1; i <= q; i++){
-                   String[] token = in.nextToken().split(" ");
-                   char ins = token[0].charAt(0);
-                   int l = Integer.parseInt(token[1]);
-                   int r = Integer.parseInt(token[2]);
-                   if (ins == 'U'){
-                       int inc = r - a[l];
-                       a[l] = r;
-                       if (i % 2 == 1){
-                           pre1[i] += inc;
-                           pre2[i] += inc * i;
-                       }
-                       else{
-                           pre1[i] -= inc;
-                           pre2[i] -= inc * i;
-                       }
-                   }
-                   // query from l to r;
-                   else{
-
-                   }
+               else{
+                   out.println(0);
                }
            }
+           else{
+               long xor = u;
+               long and = (v - u) / 2;
+               String s1 = "", s2 =  "";
+               boolean ok = true;
+               boolean set = true;
+               while (and > 0 || xor > 0){
+                   int d1 = (int)(xor % 2);
+                   int d2 = (int)(and % 2);
+                   if (d1 == 1 && d2 == 1){
+                       ok = false;
+                       break;
+                   }
+                   if (d1 == 0 && d2 == 0){
+                       s1 = "0" + s1;
+                       s2 = "0" + s2;
+                   }
+                   else if (d1 == 0){
+                       s1 = "1" + s1;
+                       s2 = "1" + s2;
+                   }
+                   else{
+                       if (set){
+                           s1 = "1" + s1;
+                           s2 = "0" + s2;
+                       }
+                       else{
+                           s1 = "0" + s1;
+                           s2 = "1" + s2;
+                       }
+                       set = !set;
+                   }
+                   xor/= 2; and/= 2;
+               }
+               if (ok){
+                   out.println(2);
+                   out.println(eval(s1) +  " "  + eval(s2));
+               }
+               else{
+                   out.println(3);
+                   out.println(u + " " + (v - u) / 2 +  " " + (v - u) / 2);
+               }
+           }
+        }
+        static long eval(String s){
+            long result = 0;
+            int l = s.length();
+            for(int i = 0; i < l; i++){
+                result = (result * 2 + (s.charAt(i) - '0'));
+            }
+            return result;
         }
     }
     // fast input reader class;

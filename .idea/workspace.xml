@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff2e7650-f59b-4691-8906-2b62335a78c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Advanced_Data_Structure/Skylines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/MaxEvents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Implementations/LenaSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Implementations/PhoenixAndScience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Implementations/PrefixSumPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/MaximumNonAdjacent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/EhabRealNumberTheory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/MinimumHiringCost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/Greedy/RestorerDistance$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Greedy/RestorerDistance$InputReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/Greedy/RestorerDistance$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Greedy/RestorerDistance$Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/Greedy/RestorerDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Greedy/RestorerDistance.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/Main$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Main$InputReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/Main$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Main$Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/ProbA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ProbA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/ProbC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ProbC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/ProbE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ProbE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Greedy/RestorerDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/RestorerDistance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProbA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProbA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProbC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProbC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProbE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProbE.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,23 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Competitive_Programming/Template.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Implementations/PhoenixAndScience.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="68">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Implementations/LenaSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+            <state relative-caret-position="1343">
+              <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,12 +53,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/Greedy/MinimumHiringCost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+            <state relative-caret-position="153">
+              <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Graphs/EhabRealNumberTheory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/MaximumNonAdjacent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="method#main#0;class#MaximumNonAdjacent#0" />
+                <element signature="method#eval#0;class#MaximumNonAdjacent#0" />
               </folding>
             </state>
           </provider>
@@ -125,8 +125,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Greedy/MakeKEquals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="374">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,9 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Graphs/GraphWithoutLongDirectPath.java" />
-        <option value="$PROJECT_DIR$/src/Solver.java" />
-        <option value="$PROJECT_DIR$/src/OldDay.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/Implementations/Arrangement.java" />
         <option value="$PROJECT_DIR$/src/GoogleKickStart/KickStart_2019/DiagonalPuzzle.java" />
@@ -193,7 +202,6 @@
         <option value="$PROJECT_DIR$/src/Graphs/TreeQueries.java" />
         <option value="$PROJECT_DIR$/src/Greedy/MakeKEquals.java" />
         <option value="$PROJECT_DIR$/src/Implementations/PrefixSumPrime.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/ProbA.java" />
         <option value="$PROJECT_DIR$/src/ProbC.java" />
         <option value="$PROJECT_DIR$/src/ProbE.java" />
@@ -202,6 +210,10 @@
         <option value="$PROJECT_DIR$/src/Greedy/MaxEvents.java" />
         <option value="$PROJECT_DIR$/src/Implementations/PhoenixAndScience.java" />
         <option value="$PROJECT_DIR$/src/Implementations/LenaSort.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/MinimumHiringCost.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Graphs/EhabRealNumberTheory.java" />
+        <option value="$PROJECT_DIR$/src/Dynamic_Programming/MaximumNonAdjacent.java" />
       </list>
     </option>
   </component>
@@ -212,8 +224,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="930" />
-    <option name="y" value="2042" />
+    <option name="x" value="830" />
+    <option name="y" value="1420" />
     <option name="width" value="1950" />
     <option name="height" value="2075" />
   </component>
@@ -223,6 +235,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,30 +253,22 @@
               <item name="a" type="b2602c69:ProjectViewProjectNode" />
               <item name="a" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Advanced_Data_Structure" type="462c0819:PsiDirectoryNode" />
+              <item name="Dynamic_Programming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="a" type="b2602c69:ProjectViewProjectNode" />
               <item name="a" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Greedy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Implementations" type="462c0819:PsiDirectoryNode" />
+              <item name="Graphs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590118482399" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590206038663" />
     <property name="last_opened_file_path" value="D:/Y2-S2/CZ3006/Labs/Lab 2/Rfc865UdpClient.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -271,8 +277,8 @@
     <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\NTU CS\Java\a\src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="NTULabs" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\NTU CS\Java\a\src\Cplusplus" />
@@ -282,8 +288,8 @@
       <recent name="Bit_Manipulation_Techniques" />
       <recent name="Tutorial_2_CZ2002" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="NTULabs" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\NTU CS\Java\a\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -304,7 +310,7 @@
     </option>
     <option name="contentProportion" value="0.13055366" />
   </component>
-  <component name="RunManager" selected="Application.LenaSort">
+  <component name="RunManager" selected="Application.MaximumNonAdjacent">
     <configuration type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ImageUtil.HelloWorld" />
       <module name="a" />
@@ -370,9 +376,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LenaSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Implementations.LenaSort" />
+    <configuration name="MaximumNonAdjacent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dynamic_Programming.MaximumNonAdjacent" />
       <module name="JavaTrainning" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Advanced_Data_Structure.*" />
@@ -387,11 +394,11 @@
       <item itemvalue="Application.Amazing" />
       <item itemvalue="Application.CongruenceEquation" />
       <item itemvalue="Application.Bitwise" />
-      <item itemvalue="Application.LenaSort" />
+      <item itemvalue="Application.MaximumNonAdjacent" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LenaSort" />
+        <item itemvalue="Application.MaximumNonAdjacent" />
         <item itemvalue="Application.Bitwise" />
       </list>
     </recent_temporary>
@@ -419,10 +426,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <frame x="332" y="568" width="780" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18645205" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.43490306" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -437,8 +444,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32857144" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.71888113" visible="true" weight="0.46817538" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.71888113" visible="true" weight="0.47285715" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3281471" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32390383" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.28111887" weight="0.3281471" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -511,35 +518,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="174" column="12" selection-start-line="174" selection-start-column="12" selection-end-line="174" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="109" column="27" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/Arrangement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/RemoveBoxes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -918,10 +896,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Competitive_Programming/Template.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        <state relative-caret-position="476">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Implementations/PhoenixAndScience.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Implementations/LenaSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/MinimumHiringCost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -955,42 +963,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/PhoenixAndScience.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Greedy/MakeKEquals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="374">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/LenaSort.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Competitive_Programming/Template.java">
+    <entry file="file://$PROJECT_DIR$/src/Graphs/EhabRealNumberTheory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        <state relative-caret-position="219">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/MaximumNonAdjacent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="method#main#0;class#MaximumNonAdjacent#0" />
+            <element signature="method#eval#0;class#MaximumNonAdjacent#0" />
           </folding>
         </state>
       </provider>
