@@ -1,11 +1,8 @@
-import java.io.BufferedReader;
+package Implementations;
 import java.util.*;
 import java.io.*;
 
-/**
- * @author Tran Anh Tai
- */
-public class Main {
+public class FILLBLANK {
     public static void main(String[] args) {
         InputReader in = new InputReader(System.in);
         PrintWriter out = new PrintWriter(System.out);
@@ -19,31 +16,47 @@ public class Main {
         public void solve(InputReader in, PrintWriter out) {
             int n = in.nextInt();
             int m = in.nextInt();
-            int matrix[][] = new int[m][n];
-            int i, j;
-            for (i = 0; i < m; i++){
-                for (j = 0; j < n; j++){
-                    matrix[i][j] = in.nextInt();
-                }
+            int a[] = new int[n];
+            int b[] = new int[m];
+            PriorityQueue<Integer> pq = new PriorityQueue<>();
+            for (int i = 0; i < n; i++){
+                a[i] = in.nextInt();
             }
-            int low_x = 0, low_y = 0;
-            int high_x = n - 1, high_y = m - 1;
+            for (int i = 0; i < m; i++){
+                b[i] = (int)(Math.pow(2, in.nextInt()));
+            }
+            int cnt = 0;
+            Arrays.sort(b);
+            Arrays.sort(a);
+            int i = 0;
+            int j = 0;
+            while (i < n){
+                if (a[i] >= b[j]){
+                    while (j < m && a[i] >= b[j]){
+                        a[i] -= b[j++];
+                        cnt++;
+                    }
+                }
+                if (j == m){
+                    break;
+                }
+                i++;
+            }
+            out.println(cnt);
+        }
 
-            while (low_x <= high_x || low_y <= high_y){
-                for (int x = low_x; x <= high_x; x++){
-                    out.print(matrix[low_y][x]+ " ");
+        private int twoPower(int ex) {
+            if (ex == 0){
+                return 1;
+            }
+            else{
+                int au = twoPower(ex / 2);
+                if  (ex % 2 == 1){
+                    return au * au * 2;
                 }
-                for (int y = low_y + 1; y <= high_y; y++){
-                    out.print(matrix[y][high_x] + " ");
+                else{
+                    return au * au;
                 }
-                for (int x = high_x - 1; x >= low_x; x--){
-                    out.print(matrix[high_y][x] + " ");
-                }
-                for (int y = high_y - 1; y >= low_y + 1; y--){
-                    out.print(matrix[y][low_x] + " ");
-                }
-                high_x--; high_y--;
-                low_x++; low_y++;
             }
         }
     }

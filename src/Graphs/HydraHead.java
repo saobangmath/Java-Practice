@@ -1,12 +1,15 @@
+package Graphs;
 
 import java.io.*;
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.StringTokenizer;
 
 /**
  * @author Tran Anh Tai
  * @template for CP codes
  */
-public class ProbA {
+public class HydraHead {
     public static void main(String[] args) {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -18,12 +21,33 @@ public class ProbA {
     }
     // main solver
     static class Task{
+        static class Pair{
+            public int x, y;
+            public  Pair(int x, int y){
+                this.x = x;
+                this.y = y;
+            }
+        }
         public void solve(InputReader in, PrintWriter out) {
-            int test = Integer.parseInt(in.nextToken());
-            for (int i = 0; i < test; i++) {
-                int n = in.nextInt();
-                int m =in.nextInt();
-                out.println((m * n + 1) / 2);
+            boolean stop = false;
+            while (!stop){
+                int h = in.nextInt();
+                int t = in.nextInt();
+                if (h == 0 && t == 0){
+                    stop = true;
+                }
+                else{
+                    int visited[][] = new int[h + 1][t + 1];
+                    Queue<Pair> q = new LinkedList<>();
+                    q.add(new Pair(h, t));
+                    int cnt = 0;
+                    while (!q.isEmpty()){
+                        int l = q.size();
+                        for (int i = 0; i < l; i++){
+                            Pair top = q.poll();
+                        }
+                    }
+                }
             }
         }
     }

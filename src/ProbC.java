@@ -1,7 +1,11 @@
-import java.util.*;
 import java.io.*;
+import java.math.BigInteger;
+import java.util.*;
 
-
+/**
+ * @author Tran Anh Tai
+ * @template for CP codes
+ */
 public class ProbC {
     public static void main(String[] args) {
         InputStream inputStream = System.in;
@@ -14,74 +18,28 @@ public class ProbC {
     }
     // main solver
     static class Task{
-        static ArrayList<Integer> e[] = new ArrayList[26];
         public void solve(InputReader in, PrintWriter out) {
-            int test = Integer.parseInt(in.nextToken());
-            for (int i = 0; i < test; i++) {
-                String s = in.nextToken();
-                String t = in.nextToken();
-                int ls = s.length();
-                int lt = t.length();
-                int j;
-                for (j = 0; j < 26; j++){
-                    e[j] = new ArrayList<>();
+            int t = in.nextInt();
+            for (int i =0 ; i < t; i++){
+                int x1 = in.nextInt();
+                int y1 = in.nextInt();
+                int x2 = in.nextInt();
+                int y2 = in.nextInt();
+                int dx = (x2 - x1);
+                int dy = (y2 - y1);
+                if (dx == 0 || dy == 0){
+                    out.println(1);
                 }
-                for (j = 0; j < ls; j++){
-                    e[s.charAt(j) - 'a'].add(j);
+                else{
+                    int max = Math.max(dx, dy);
+                    int min = Math.min(dx, dy);
+                    long r = (long)(min) * (min  - 1);
+                    long l = (long)(max - min + 1) * min;
+                    out.println(l + r + 1);
                 }
-                j = 0;
-                int cnt = 0;
-                while (j < lt){
-                    int ch = t.charAt(j) - 'a';
-                    if (e[ch].size() == 0){
-                        cnt = -1;
-                        break;
-                    }
-                    else{
-                        int idx = e[ch].get(0);
-                        j++;
-                        cnt++;
-                        while (j < lt){
-                            ch = t.charAt(j) - 'a';
-                            idx =  binarySearch(e[ch], idx + 1);
-                            if (idx == -1){
-                                break;
-                            }
-                            else{
-                                j++;
-                            }
-                        }
-                    }
-                }
-                out.println(cnt);
             }
         }
 
-        private int binarySearch(ArrayList<Integer> l, int t) {
-            int beg = 0;
-            int end = l.size() - 1;
-            if (beg > end){
-                return -1;
-            }
-            while(beg < end - 1){
-                int mid = (beg + end) / 2;
-                if (l.get(mid) >= t){
-                    end = mid;
-                }
-                else{
-                    beg = mid + 1;
-                }
-            }
-            if (l.get(beg) >= t){
-                return l.get(beg);
-            }
-            else if (l.get(end) >= t){
-                return l.get(end);
-            }
-            else{
-                return -1;
-            }
-        }
     }
     // fast input reader class;
     static class InputReader {
@@ -116,4 +74,3 @@ public class ProbC {
         }
     }
 }
-

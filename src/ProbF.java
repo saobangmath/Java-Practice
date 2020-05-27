@@ -1,80 +1,60 @@
-import java.util.Scanner;
 
+import java.io.*;
+import java.util.*;
+
+/**
+ * @author Tran Anh Tai
+ * @template for CP codes
+ */
 public class ProbF {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String S = sc.next();
-        String T = sc.next();
-        int ls = S.length();
-        int lt = T.length();
-        int s = 0,  t = 0;
-        int open = 0;
-        while (s < ls && t < lt){
-            char cs = S.charAt(s);
-            char ct = T.charAt(t);
-            s++; t++;
-            if (cs == ct){
-                if (cs == '('){
-                    open++;
-                    System.out.print('(');
-                }
-                else if (open > 0){
-                    open--;
-                    System.out.print(")");
-                }
-                else{
-                    System.out.print("()");
-                }
-            }
-            else{
-                System.out.print("()");
-                if (cs == '('){
-                    if (s < ls && S.charAt(s) == ')'){
-                        s++;
-                    }
-                }
-                else{
-                    if (t < lt && T.charAt(t) == ')'){
-                        t++;
-                    }
-                }
+        InputStream inputStream = System.in;
+        OutputStream outputStream = System.out;
+        InputReader in = new InputReader(inputStream);
+        PrintWriter out = new PrintWriter(outputStream);
+        Task solver = new Task();
+        solver.solve(in, out);
+        out.close();
+    }
+    // main solver
+    static class Task{
+        public void solve(InputReader in, PrintWriter out) {
+            int test = Integer.parseInt(in.nextToken());
+            for (int i = 0; i < test; i++) {
+
             }
         }
-        if (s < ls){
-            while (s <  ls){
-                if (S.charAt(s) == '('){
-                    open++;
-                    System.out.print("(");
-                }
-                else if (open > 0){
-                    open--;
-                    System.out.print(")");
-                }
-                else{
-                    System.out.print("()");
-                }
-                s++;
-            }
+    }
+    // fast input reader class;
+    static class InputReader {
+        BufferedReader br;
+        StringTokenizer st;
+
+        public InputReader(InputStream stream) {
+            br = new BufferedReader(new InputStreamReader(stream));
         }
-        else{
-            while (t <  lt){
-                if (T.charAt(t) == '('){
-                    open++;
-                    System.out.print("(");
+
+        public String nextToken() {
+            while (st == null || !st.hasMoreTokens()) {
+                String line = null;
+                try {
+                    line = br.readLine();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
                 }
-                else if (open > 0){
-                    open--;
-                    System.out.print(")");
+                if (line == null) {
+                    return null;
                 }
-                else{
-                    System.out.print("()");
-                }
-                t++;
+                st = new StringTokenizer(line);
             }
+            return st.nextToken();
         }
-        while (open > 0){
-            System.out.print(")");
-            open--;
+
+        public int nextInt() {
+            return Integer.parseInt(nextToken());
+        }
+        public long nextLong(){
+            return Long.parseLong(nextToken());
         }
     }
 }

@@ -1,11 +1,8 @@
-import java.io.BufferedReader;
+package Implementations;
 import java.util.*;
 import java.io.*;
 
-/**
- * @author Tran Anh Tai
- */
-public class Main {
+public class GIFT {
     public static void main(String[] args) {
         InputReader in = new InputReader(System.in);
         PrintWriter out = new PrintWriter(System.out);
@@ -17,33 +14,30 @@ public class Main {
 
     static class Task {
         public void solve(InputReader in, PrintWriter out) {
-            int n = in.nextInt();
-            int m = in.nextInt();
-            int matrix[][] = new int[m][n];
-            int i, j;
-            for (i = 0; i < m; i++){
-                for (j = 0; j < n; j++){
-                    matrix[i][j] = in.nextInt();
-                }
+            int t = in.nextInt();
+            for (int i = 0; i < t; i++){
+                int n = in.nextInt();
+                out.println(func(n));
             }
-            int low_x = 0, low_y = 0;
-            int high_x = n - 1, high_y = m - 1;
+            return ;
+        }
 
-            while (low_x <= high_x || low_y <= high_y){
-                for (int x = low_x; x <= high_x; x++){
-                    out.print(matrix[low_y][x]+ " ");
+        private int func(int n) {
+            if (n == 1){
+                return 0;
+            }
+            else{
+                int cnt = 0;
+                while (n % 2 == 0){
+                    cnt++;
+                    n = n / 2;
                 }
-                for (int y = low_y + 1; y <= high_y; y++){
-                    out.print(matrix[y][high_x] + " ");
+                if (n == 1){
+                    return cnt;
                 }
-                for (int x = high_x - 1; x >= low_x; x--){
-                    out.print(matrix[high_y][x] + " ");
+                else {
+                    return cnt + func(3 * n + 1) + 1;
                 }
-                for (int y = high_y - 1; y >= low_y + 1; y--){
-                    out.print(matrix[y][low_x] + " ");
-                }
-                high_x--; high_y--;
-                low_x++; low_y++;
             }
         }
     }

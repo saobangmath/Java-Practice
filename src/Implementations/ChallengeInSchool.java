@@ -1,11 +1,8 @@
-import java.io.BufferedReader;
-import java.util.*;
+package Implementations;
 import java.io.*;
+import java.util.*;
 
-/**
- * @author Tran Anh Tai
- */
-public class Main {
+public class ChallengeInSchool {
     public static void main(String[] args) {
         InputReader in = new InputReader(System.in);
         PrintWriter out = new PrintWriter(System.out);
@@ -18,32 +15,23 @@ public class Main {
     static class Task {
         public void solve(InputReader in, PrintWriter out) {
             int n = in.nextInt();
-            int m = in.nextInt();
-            int matrix[][] = new int[m][n];
-            int i, j;
-            for (i = 0; i < m; i++){
-                for (j = 0; j < n; j++){
-                    matrix[i][j] = in.nextInt();
+            int k = in.nextInt();
+            String s = in.nextToken();
+            int start = 0;
+            int end = n - 1;
+            while (start < n && s.charAt(start) == 'L'){
+                start++;
+            }
+            while (end >= 0 && s.charAt(end) == 'R'){
+                end--;
+            }
+            if (start == n || end == -1|| end == start + 1){
+                if (k != 0){
+                    out.println(-1);
                 }
             }
-            int low_x = 0, low_y = 0;
-            int high_x = n - 1, high_y = m - 1;
+            else{
 
-            while (low_x <= high_x || low_y <= high_y){
-                for (int x = low_x; x <= high_x; x++){
-                    out.print(matrix[low_y][x]+ " ");
-                }
-                for (int y = low_y + 1; y <= high_y; y++){
-                    out.print(matrix[y][high_x] + " ");
-                }
-                for (int x = high_x - 1; x >= low_x; x--){
-                    out.print(matrix[high_y][x] + " ");
-                }
-                for (int y = high_y - 1; y >= low_y + 1; y--){
-                    out.print(matrix[y][low_x] + " ");
-                }
-                high_x--; high_y--;
-                low_x++; low_y++;
             }
         }
     }

@@ -2,13 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff2e7650-f59b-4691-8906-2b62335a78c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/MaximumNonAdjacent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/EhabRealNumberTheory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/MinimumHiringCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/ConquestCampaign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/CurrencyExchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/HydraHead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Implementations/ChallengeInSchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Implementations/FILLBLANK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Implementations/GIFT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Implementations/RSPIRAL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProbB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Dynamic_Programming/MaximumNonAdjacent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Dynamic_Programming/MaximumNonAdjacent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/Main$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Main$InputReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/Main$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Main$Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ProbA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ProbA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ProbC$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ProbC$InputReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ProbC$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ProbC$Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ProbC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ProbC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ProbD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ProbD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ProbE$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ProbE$InputReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ProbE$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ProbE$Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ProbE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ProbE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ProbF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ProbF.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProbA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProbA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProbC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProbC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProbD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProbD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProbE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProbE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProbF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProbF.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,10 +49,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Implementations/PhoenixAndScience.java">
+        <entry file="file://$PROJECT_DIR$/src/ProbA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="442">
+              <caret line="27" column="9" selection-end-line="61" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,10 +61,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Implementations/LenaSort.java">
+        <entry file="file://$PROJECT_DIR$/src/ProbB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+            <state relative-caret-position="612">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,10 +73,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Greedy/MinimumHiringCost.java">
+        <entry file="file://$PROJECT_DIR$/src/ProbC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
+            <state relative-caret-position="442">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,10 +85,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Graphs/EhabRealNumberTheory.java">
+        <entry file="file://$PROJECT_DIR$/src/ProbD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="57">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,32 +97,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/MaximumNonAdjacent.java">
+        <entry file="file://$PROJECT_DIR$/src/Graphs/CurrencyExchange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-              <folding>
-                <element signature="method#main#0;class#MaximumNonAdjacent#0" />
-                <element signature="method#eval#0;class#MaximumNonAdjacent#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProbA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="1" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Greedy/RestorerDistance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="116" column="56" selection-start-line="116" selection-start-column="56" selection-end-line="116" selection-end-column="56" />
+            <state relative-caret-position="103">
+              <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,34 +109,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Greedy/MaxEvents.java">
+        <entry file="file://$PROJECT_DIR$/src/ProbE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Greedy/MakeKEquals.java">
+        <entry file="file://$PROJECT_DIR$/src/ProbF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="34">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,19 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Solution.java" />
-        <option value="$PROJECT_DIR$/src/Implementations/Arrangement.java" />
-        <option value="$PROJECT_DIR$/src/GoogleKickStart/KickStart_2019/DiagonalPuzzle.java" />
-        <option value="$PROJECT_DIR$/src/GoogleKickStart/KickStart_2019/H_Index.java" />
-        <option value="$PROJECT_DIR$/src/GoogleKickStart/KickStart_2018/WiggleWalk.java" />
-        <option value="$PROJECT_DIR$/src/Codeforce/div2/PhoenixDistribution.java" />
-        <option value="$PROJECT_DIR$/src/Competitive_Programming/Isolation.java" />
-        <option value="$PROJECT_DIR$/src/Dynamic_Programming/RemoveBoxes.java" />
-        <option value="$PROJECT_DIR$/src/Codeforce/div2/WeightDistribution.java" />
-        <option value="$PROJECT_DIR$/src/Advanced_Data_Structure/RestorePermutationWithSortedSegment.java" />
-        <option value="$PROJECT_DIR$/src/Number_Theory/AnotherCountingProb.java" />
-        <option value="$PROJECT_DIR$/src/Advanced_Data_Structure/MultipleTestCase.java" />
-        <option value="$PROJECT_DIR$/src/Dynamic_Programming/PlacingRocks.java" />
         <option value="$PROJECT_DIR$/src/Greedy/TripleSort.java" />
         <option value="$PROJECT_DIR$/src/Number_Theory/RandomTeam.java" />
         <option value="$PROJECT_DIR$/src/Implementations/BusesAllocation.java" />
@@ -202,18 +172,31 @@
         <option value="$PROJECT_DIR$/src/Graphs/TreeQueries.java" />
         <option value="$PROJECT_DIR$/src/Greedy/MakeKEquals.java" />
         <option value="$PROJECT_DIR$/src/Implementations/PrefixSumPrime.java" />
-        <option value="$PROJECT_DIR$/src/ProbA.java" />
-        <option value="$PROJECT_DIR$/src/ProbC.java" />
-        <option value="$PROJECT_DIR$/src/ProbE.java" />
         <option value="$PROJECT_DIR$/src/Greedy/RestorerDistance.java" />
         <option value="$PROJECT_DIR$/src/Advanced_Data_Structure/Skylines.java" />
         <option value="$PROJECT_DIR$/src/Greedy/MaxEvents.java" />
         <option value="$PROJECT_DIR$/src/Implementations/PhoenixAndScience.java" />
         <option value="$PROJECT_DIR$/src/Implementations/LenaSort.java" />
         <option value="$PROJECT_DIR$/src/Greedy/MinimumHiringCost.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Graphs/EhabRealNumberTheory.java" />
         <option value="$PROJECT_DIR$/src/Dynamic_Programming/MaximumNonAdjacent.java" />
+        <option value="$PROJECT_DIR$/src/Implementations/ChallengeInSchool.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Implementations/FINDPER.java" />
+        <option value="$PROJECT_DIR$/src/Implementations/MARBLES.java" />
+        <option value="$PROJECT_DIR$/src/Implementations/GIFT.java" />
+        <option value="$PROJECT_DIR$/src/Implementations/RSPIRAL.java" />
+        <option value="$PROJECT_DIR$/src/Implementations/FILLBLANK.java" />
+        <option value="$PROJECT_DIR$/src/Graphs/ConquestCampaign.java" />
+        <option value="$PROJECT_DIR$/src/Graphs/HydraHead.java" />
+        <option value="$PROJECT_DIR$/src/ProbF.java" />
+        <option value="$PROJECT_DIR$/src/ProbE.java" />
+        <option value="$PROJECT_DIR$/src/ProbA.java" />
+        <option value="$PROJECT_DIR$/src/ProbB.java" />
+        <option value="$PROJECT_DIR$/src/ProbC.java" />
+        <option value="$PROJECT_DIR$/src/ProbD.java" />
+        <option value="$PROJECT_DIR$/src/Graphs/BellmanFord.java" />
+        <option value="$PROJECT_DIR$/src/Graphs/CurrencyExchange.java" />
       </list>
     </option>
   </component>
@@ -224,10 +207,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="830" />
-    <option name="y" value="1420" />
+    <option name="x" value="1255" />
+    <option name="y" value="310" />
     <option name="width" value="1950" />
-    <option name="height" value="2075" />
+    <option name="height" value="2045" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -236,7 +219,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,7 +235,13 @@
               <item name="a" type="b2602c69:ProjectViewProjectNode" />
               <item name="a" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Dynamic_Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="Advanced_Data_Structure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Competitive_Programming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="a" type="b2602c69:ProjectViewProjectNode" />
@@ -261,14 +249,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Graphs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Implementations" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590206038663" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590591694476" />
     <property name="last_opened_file_path" value="D:/Y2-S2/CZ3006/Labs/Lab 2/Rfc865UdpClient.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -310,7 +305,7 @@
     </option>
     <option name="contentProportion" value="0.13055366" />
   </component>
-  <component name="RunManager" selected="Application.MaximumNonAdjacent">
+  <component name="RunManager" selected="Application.CurrencyExchange">
     <configuration type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ImageUtil.HelloWorld" />
       <module name="a" />
@@ -376,8 +371,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumNonAdjacent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dynamic_Programming.MaximumNonAdjacent" />
+    <configuration name="CurrencyExchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.CurrencyExchange" />
       <module name="JavaTrainning" />
       <option name="VM_PARAMETERS" value="-ea" />
       <extension name="coverage">
@@ -394,11 +389,11 @@
       <item itemvalue="Application.Amazing" />
       <item itemvalue="Application.CongruenceEquation" />
       <item itemvalue="Application.Bitwise" />
-      <item itemvalue="Application.MaximumNonAdjacent" />
+      <item itemvalue="Application.CurrencyExchange" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaximumNonAdjacent" />
+        <item itemvalue="Application.CurrencyExchange" />
         <item itemvalue="Application.Bitwise" />
       </list>
     </recent_temporary>
@@ -426,10 +421,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="332" y="568" width="780" height="830" extended-state="0" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.43490306" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23809524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -444,12 +439,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32857144" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.71888113" visible="true" weight="0.47285715" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3281471" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32390383" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.71888113" visible="true" weight="0.45685998" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33142856" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32248938" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.28111887" weight="0.3281471" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49784482" weight="0.10181237" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49784482" weight="0.10127431" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
@@ -518,141 +513,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/RemoveBoxes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphs/HappyKingdom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codeforce/div2/WeightDistribution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BigInteger/SameGCDs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number_Theory/AnotherCountingProb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-725">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#1546#1547#0" expanded="true" />
-            <element signature="e#1578#1579#0" expanded="true" />
-            <element signature="e#1636#1637#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Advanced_Data_Structure/RestorePermutationWithSortedSegment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Advanced_Data_Structure/MultipleTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Greedy/TripleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number_Theory/RandomTeam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding>
-            <marker date="1588730586991" expanded="true" signature="930:1296" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number_Theory/DanangRegional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/RestoringPermutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/BusesAllocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphs/MonopoleMagnetes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/Skier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bit_Manipulation_Techniques/BitWiseProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -860,46 +720,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProbC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProbE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2436#2437#0" expanded="true" />
-            <element signature="e#2514#2515#0" expanded="true" />
-            <element signature="e#3044#3045#0" expanded="true" />
-            <element signature="e#3104#3105#0" expanded="true" />
-            <element signature="e#3136#3137#0" expanded="true" />
-            <element signature="e#3194#3195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Advanced_Data_Structure/Skylines.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
           <caret line="104" column="22" lean-forward="true" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Competitive_Programming/Template.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="59" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -916,47 +740,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/LenaSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Greedy/MinimumHiringCost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProbA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="1" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Greedy/RestorerDistance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1734">
           <caret line="116" column="56" selection-start-line="116" selection-start-column="56" selection-end-line="116" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Greedy/MaxEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -973,10 +760,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/MaximumNonAdjacent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="408">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="method#main#0;class#MaximumNonAdjacent#0" />
+            <element signature="method#eval#0;class#MaximumNonAdjacent#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/MaxEvents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Implementations/FINDPER.java" />
+    <entry file="file://$PROJECT_DIR$/src/Implementations/ChallengeInSchool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -993,13 +802,178 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dynamic_Programming/MaximumNonAdjacent.java">
+    <entry file="file://$PROJECT_DIR$/src/Greedy/MinimumHiringCost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
           <folding>
-            <element signature="method#main#0;class#MaximumNonAdjacent#0" />
-            <element signature="method#eval#0;class#MaximumNonAdjacent#0" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Implementations/LenaSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Implementations/MARBLES.java" />
+    <entry file="file://$PROJECT_DIR$/src/Implementations/FILLBLANK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Implementations/GIFT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Implementations/RSPIRAL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="186" column="25" selection-start-line="186" selection-start-column="25" selection-end-line="186" selection-end-column="25" />
+          <folding>
+            <element signature="e#7093#7094#0" expanded="true" />
+            <element signature="e#7174#7175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphs/ConquestCampaign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="70" column="17" selection-start-line="68" selection-start-column="27" selection-end-line="70" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Competitive_Programming/Template.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="60" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Advanced_Data_Structure/FenwichTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphs/HydraHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProbA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="9" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProbB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProbC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProbE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProbF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProbD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphs/CurrencyExchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
