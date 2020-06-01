@@ -1,3 +1,5 @@
+package Advanced_Data_Structure;
+
 import java.io.*;
 import java.util.*;
 
@@ -5,7 +7,7 @@ import java.util.*;
  * @author Tran Anh Tai
  * @template for CP codes
  */
-public class ProbC {
+public class YetAnotherTask {
     public static void main(String[] args) {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -18,38 +20,13 @@ public class ProbC {
     // main solver
     static class Task{
         public void solve(InputReader in, PrintWriter out) {
-            int test = in.nextInt();
-            String first = "Ayush";
-            String second = "Ashish";
-            for (int i = 0 ; i < test; i++){
-                int n = in.nextInt();
-                int x = in.nextInt();
-                ArrayList<Integer> E[] = new ArrayList[n];
-                for (int j = 0; j < n; j++){
-                    E[j] = new ArrayList<>();
-                }
-                for (int j = 0; j < n - 1; j++){
-                    int u = in.nextInt() - 1;
-                    int v = in.nextInt() - 1;
-                    E[u].add(v); E[v].add(u);
-                }
-                int cnt = 0;
-                for (int dest : E[x- 1]){
-                    cnt++;
-                }
-                if (cnt <= 1){
-                    out.println(first);
-                }
-                else{
-                    int au = n - 2;
-                    if (au % 2 == 0){
-                        out.println(first);
-                    }
-                    else{
-                        out.println(second);
-                    }
-                }
+            int n = in.nextInt();
+            int a[] = new int[n];
+            int i, j;
+            for (i=0; i < n; i++){
+                a[i] = in.nextInt();
             }
+
         }
     }
     // fast input reader class;

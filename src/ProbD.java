@@ -19,13 +19,6 @@ public class ProbD {
     // main solver
     static class Task{
         public void solve(InputReader in, PrintWriter out) {
-            int n = in.nextInt();
-            int x = in.nextInt();
-            int d[] = new int[n];
-            int i;
-            for (i = 0; i < n; i++){
-                d[i] = in.nextInt();
-            }
 
         }
     }

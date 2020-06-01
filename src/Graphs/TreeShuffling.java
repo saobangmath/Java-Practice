@@ -1,3 +1,5 @@
+package Graphs;
+
 
 import java.io.*;
 import java.util.*;
@@ -7,9 +9,13 @@ import java.util.*;
  * @https://codeforces.com/contest/1363/problem/E
  * ProbE contest div 2 #646: A kind of dp on Tree: find the minimum cost required for changing all binary written in each node to the desired value with each node has its own value;
  * Ideas:
- * @Key: Let a node i with its parent is node p -> if a[p] < a[i]: the node shuffling operation for the node i will be performed on the node p instead for minimize the cost;
+ * @Key:
+ * 1. Let a node i with its parent is node p -> if a[p] < a[i]: the node shuffling operation for the node i will be performed on the node p instead for minimize the cost;
+ * 2. We will only swap the node with current value 1 - desired value 0 (TYPE 1)  or vice versa (TYPE 2);
+ * 3. No perform shuffling on the node with the same value with both current value and desired value;
+ * @Trick: for many Tree problem, with the node numbered from 1-> n, we could add an auxiliary root zero for more convenient in coding.
  */
-public class ProbE {
+public class TreeShuffling {
     public static void main(String[] args) {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -41,7 +47,6 @@ public class ProbE {
                 int v = in.nextInt();
                 E[u].add(v); E[v].add(u);
             }
-            System.out.println();
             int remain[] = dfs(1, 0, 2000000009);
             if (remain[0] > 0 || remain[1] > 0){
                 out.println(-1);
@@ -51,6 +56,14 @@ public class ProbE {
             }
         }
 
+        /**
+         * return an array with 2 elements: remained number of TYPE 1, TYPE 2 node respectively;
+         * Update the minimum cost upward from the leaf up to parent;
+         * @param i
+         * @param par
+         * @param weight
+         * @return
+         */
         private int[] dfs(int i, int par, long weight) {
             int remain[] = new  int[]{0, 0};
             if (b[i] != c[i]){

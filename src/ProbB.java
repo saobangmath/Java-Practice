@@ -21,23 +21,16 @@ public class ProbB {
         public void solve(InputReader in, PrintWriter out) {
             int test = Integer.parseInt(in.nextToken());
             for (int i = 0; i < test; i++) {
-                int n = in.nextInt();
-                int[] a =  new int[n];
+                String s = in.nextToken();
+                int l = s.length();
                 int j;
-                int cnt = 0;
-                int result = 0;
-                for (j = 0; j < n; j++){
-                    a[j] = in.nextInt();
+                int cnt[] = new int[l + 1];
+                for (j = 0; j < l; j++){
+                    cnt[j+1]  = cnt[j] +  (s.charAt(j) == '1' ? 1 : 0);
                 }
-                Arrays.sort(a);
-                for (j = n - 1; j >= 0; j--){
-                    if (a[j] <= j + 1){
-                        result = j + 2;
-                        break;
-                    }
-                }
-                if (j == -1){
-                    result = 1;
+                int result = Math.min(cnt[l], l - cnt[l]);
+                for (j = 1; j <= l - 1; j++){
+                    result = Math.min(result, Math.min(cnt[j], j - cnt[j]) + Math.min(cnt[l] - cnt[j], (l - j) - (cnt[l] - cnt[j])));
                 }
                 out.println(result);
             }

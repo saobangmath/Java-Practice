@@ -22,8 +22,44 @@ public class ProbA {
             int test = Integer.parseInt(in.nextToken());
             for (int i = 0; i < test; i++) {
                 int n = in.nextInt();
-                int m =in.nextInt();
-                out.println((m * n + 1) / 2);
+                int x= in.nextInt();
+                int a[] = new int[n];
+                int odd = 0, even = 0;
+                //Map<Integer, Boolean> m = new HashMap<>();
+                for (int j = 0; j < n; j++){
+                    a[j] = in.nextInt();
+                  //  if (!m.getOrDefault(a[j], false)){
+                        if (a[j] % 2 == 1) {odd++;}
+                        else {even++;}
+                      //  m.put(a[j], true);
+                    //}
+                }
+                if (odd == 0){
+                    out.println("No");
+                }
+                else{
+                    x -= even;
+                    if (x <= 1){
+                        out.println("Yes");
+                    }
+                    else{
+                        boolean stop = false;
+                        if (x % 2 == 0){
+                            if (even != 0) x++;
+                            else {
+                                out.println("No");
+                                stop = true;
+                            }
+                        }
+                        if (!stop){
+                        if (x <= odd){
+                            out.println("Yes");
+                        }
+                        else{
+                            out.println("No");
+                        }}
+                    }
+                }
             }
         }
     }
