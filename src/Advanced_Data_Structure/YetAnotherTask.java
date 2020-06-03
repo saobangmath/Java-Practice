@@ -6,6 +6,10 @@ import java.util.*;
 /**
  * @author Tran Anh Tai
  * @template for CP codes
+ * Prob D contest codeforces round 88;
+ * The target is finding the segment [l, r] for an array a such that sum(a[l:r]) - max(a[l:r]) max;
+ * @Key: The Kadane's algorithm is famous for solving the problem involving finding the maximum value of a[l:r];
+ * Now what we do is trying to utilize such algorithm to solve this problem.
  */
 public class YetAnotherTask {
     public static void main(String[] args) {
@@ -26,7 +30,22 @@ public class YetAnotherTask {
             for (i=0; i < n; i++){
                 a[i] = in.nextInt();
             }
-
+            long result = 0;
+            for (int max = 1; max <= 30; max++){
+                i = 0;
+                long cur_sum = 0;
+                long max_sum = 0;
+                while (i < n){
+                    cur_sum += (a[i] > max ? Integer.MIN_VALUE : a[i]);
+                    max_sum = Math.max(max_sum, cur_sum);
+                    if (cur_sum < 0){
+                        cur_sum = 0;
+                    }
+                    i++;
+                }
+                result = Math.max(result, max_sum - max);
+            }
+            out.println(result);
         }
     }
     // fast input reader class;
