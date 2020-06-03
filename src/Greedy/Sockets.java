@@ -1,12 +1,15 @@
+package Greedy;
+
 
 import java.io.*;
 import java.util.*;
 
 /**
  * @author Tran Anh Tai
- * @template for CP codes
+ * @https://codeforces.com/contest/732/problem/E
+ *
  */
-public class ProbA {
+public class Sockets {
     public static void main(String[] args) {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -19,15 +22,7 @@ public class ProbA {
     // main solver
     static class Task{
         public void solve(InputReader in, PrintWriter out) {
-            int k = in.nextInt();
-            int r = in.nextInt();
-            int cnt = 1;
-            int total = k;
-            while (total %  10 != 0 && total  % 10 != r){
-                total += k;
-                cnt++;
-            }
-            out.println(cnt);
+
         }
     }
     // fast input reader class;

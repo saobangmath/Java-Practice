@@ -19,20 +19,25 @@ public class ProbB {
     // main solver
     static class Task{
         public void solve(InputReader in, PrintWriter out) {
-            int test = Integer.parseInt(in.nextToken());
-            for (int i = 0; i < test; i++) {
-                String s = in.nextToken();
-                int l = s.length();
-                int j;
-                int cnt[] = new int[l + 1];
-                for (j = 0; j < l; j++){
-                    cnt[j+1]  = cnt[j] +  (s.charAt(j) == '1' ? 1 : 0);
+            int n = in.nextInt();
+            int k = in.nextInt();
+            int i;
+            int[]a = new int[n];
+            int cnt = 0;
+            for (i = 0; i < n; i++){
+                a[i] = in.nextInt();
+            }
+            i = 1;
+            while (i < n){
+                if (a[i] + a[i - 1] < k){
+                    cnt += (k - a[i - 1] - a[i]);
+                    a[i] = k - a[i - 1];
                 }
-                int result = Math.min(cnt[l], l - cnt[l]);
-                for (j = 1; j <= l - 1; j++){
-                    result = Math.min(result, Math.min(cnt[j], j - cnt[j]) + Math.min(cnt[l] - cnt[j], (l - j) - (cnt[l] - cnt[j])));
-                }
-                out.println(result);
+                i++;
+            }
+            out.println(cnt);
+            for(i = 0; i < n; i++){
+                out.print(a[i] + " ");
             }
         }
     }

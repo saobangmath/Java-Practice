@@ -1,12 +1,8 @@
-
-import java.io.*;
+package Graphs;
 import java.util.*;
+import java.io.*;
 
-/**
- * @author Tran Anh Tai
- * @template for CP codes
- */
-public class ProbA {
+public class TouristReform {
     public static void main(String[] args) {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -16,20 +12,25 @@ public class ProbA {
         solver.solve(in, out);
         out.close();
     }
-    // main solver
     static class Task{
         public void solve(InputReader in, PrintWriter out) {
-            int k = in.nextInt();
-            int r = in.nextInt();
-            int cnt = 1;
-            int total = k;
-            while (total %  10 != 0 && total  % 10 != r){
-                total += k;
-                cnt++;
+            int n = in.nextInt();
+            int m = in.nextInt();
+            ArrayList<Integer> E[] = new ArrayList[n];
+            int i, j;
+            for (i = 0; i < n; i++){
+                E[i] = new ArrayList<>();
             }
-            out.println(cnt);
+            for (i = 0; i < m; i++){
+                int u = in.nextInt() - 1;
+                int v = in.nextInt() - 1;
+                E[u].add(v);
+                E[v].add(u);
+            }
+            //ideas??
         }
     }
+
     // fast input reader class;
     static class InputReader {
         BufferedReader br;

@@ -21,57 +21,8 @@ public class ProbE {
     }
     // main solver
     static class Task{
-        static int N = 200005;
-        static long a[] = new long[N];
-        static int b[] = new int[N];
-        static int c[] = new int[N];
-        static long cost = 0; // result;
-        ArrayList<Integer> E[] = new ArrayList[N];
         public void solve(InputReader in, PrintWriter out) {
-            int n = in.nextInt();
-            int i;
-            for (i = 1; i <= n; i++){
-                E[i] = new ArrayList<>();
-                a[i] = in.nextInt();
-                b[i] = in.nextInt();
-                c[i] = in.nextInt();
-            }
-            for (i = 0; i < n - 1; i++){
-                int u = in.nextInt();
-                int v = in.nextInt();
-                E[u].add(v); E[v].add(u);
-            }
-            System.out.println();
-            int remain[] = dfs(1, 0, 2000000009);
-            if (remain[0] > 0 || remain[1] > 0){
-                out.println(-1);
-            }
-            else{
-                out.println(cost);
-            }
-        }
 
-        private int[] dfs(int i, int par, long weight) {
-            int remain[] = new  int[]{0, 0};
-            if (b[i] != c[i]){
-                if (b[i] == 1) remain[0]++;
-                else remain[1]++;
-            }
-            for (int dest : E[i]){
-                if (dest == par){ // avoid infinity loop;
-                    continue;
-                }
-                int[] au = dfs(dest, i, Math.min(weight, a[i]));
-                remain[0] += au[0];
-                remain[1] += au[1];
-            }
-            if (a[i] < weight){ // the remain will be handle by node i instead of its parent(root);
-                int taken = Math.min(remain[0], remain[1]);
-                cost += 2 * taken * a[i];
-                remain[0] -= taken;
-                remain[1] -= taken;
-            }
-            return remain;
         }
     }
     // fast input reader class;

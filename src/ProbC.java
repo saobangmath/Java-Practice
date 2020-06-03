@@ -18,37 +18,24 @@ public class ProbC {
     // main solver
     static class Task{
         public void solve(InputReader in, PrintWriter out) {
-            int test = in.nextInt();
-            String first = "Ayush";
-            String second = "Ashish";
-            for (int i = 0 ; i < test; i++){
-                int n = in.nextInt();
-                int x = in.nextInt();
-                ArrayList<Integer> E[] = new ArrayList[n];
-                for (int j = 0; j < n; j++){
-                    E[j] = new ArrayList<>();
-                }
-                for (int j = 0; j < n - 1; j++){
-                    int u = in.nextInt() - 1;
-                    int v = in.nextInt() - 1;
-                    E[u].add(v); E[v].add(u);
-                }
-                int cnt = 0;
-                for (int dest : E[x- 1]){
-                    cnt++;
-                }
-                if (cnt <= 1){
-                    out.println(first);
-                }
-                else{
-                    int au = n - 2;
-                    if (au % 2 == 0){
-                        out.println(first);
-                    }
-                    else{
-                        out.println(second);
-                    }
-                }
+            long b = in.nextLong();
+            long d = in.nextLong();
+            long s = in.nextLong();
+            long max =  Math.max(b, Math.max(d, s));
+            if (b == d && d == s){
+                out.println(0);
+            }
+            else if (d == b && d == max){
+                out.println(max - s - 1);
+            }
+            else if (d == s && d == max){
+                out.println(max - b - 1);
+            }
+            else if (b == s && b == max){
+                out.println(max - d - 1);
+            }
+            else{
+                out.println(3 * max - 2 - b - d - s);
             }
         }
     }
