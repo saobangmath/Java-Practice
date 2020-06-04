@@ -1,16 +1,22 @@
+import java.io.*;
+import java.util.*;
+
 public class TaskA {
+    static private double PI = Math.PI;
     public static void main(String[] args) {
-       int n = 6;
-       int[] arr = {2, 4, 5, 1, 3};
-       assert(MissingNumber(arr) == 6);
-    }
-    public static int MissingNumber(int[] arr){
-        int result = 0;
-        int l = arr.length;
-        for (int i = 0; i < l; i++){
-            result = result ^ ((i + 1) ^ arr[i]);
+        InputStream in = System.in;
+        Scanner sc = new Scanner(in);
+        int t = sc.nextInt();
+        int n;
+        for (int i = 0; i < t; i++){
+            n = sc.nextInt();
+            System.out.println(solve(n));
         }
-        result = result ^ (l + 1);
-        return result;
+    }
+
+    private static double solve(int n) {
+        double num = Math.cos(PI / (4 * n));
+        double det = Math.sin(PI / (2 * n));
+        return num / det;
     }
 }

@@ -12,9 +12,6 @@ import java.io.*;
  * 3. Move one brick from the top of any pillar to another one: cost M
  * The target is finding the minimum cost available to get all of the pillars in the same height before some operations.
  */
-import java.util.*;
-import java.io.*;
-
 public class RestorerDistance {
     public static void main(String[] args) {
         InputStream inputStream = System.in;
