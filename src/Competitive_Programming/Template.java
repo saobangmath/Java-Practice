@@ -4,6 +4,9 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 /**
+ * Blessed are those who suffer for doing what is right.
+ * The kingdom of heaven belongs to them.
+ * (Matthew 5:10-12)
  * @author Tran Anh Tai
  * @template for CP codes
  */
