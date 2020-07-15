@@ -5,7 +5,8 @@ import java.util.StringTokenizer;
 
 /**
  * @author Tran Anh Tai
- * @template for CP codes
+ * @link: https://codeforces.com/contest/1348/problem/C
+ * @comments: my solution is lengthy and monotonous;
  */
 public class PhoenixDistribution {
     public static void main(String[] args) {
@@ -30,27 +31,57 @@ class Task{
             for (int j = 0; j < n; j++){
                 cnt[s.charAt(j) - 'a']++;
             }
-            boolean stop = false;
-            for (int j = 0; j < 26; j++){
-                if (cnt[i] >= k){
-                    out.print((char)('a' + i));
-                    break;
-                }
-                int au = n / k;
-                if (cnt[i] == n){ // last ...
-
-                    if (n / k != 0){
-                        au++;
-                    }
-                    for (int x =  0; x <  au; x++){
-                        out.print((char)('a'  +  i));
-                    }
-                }
-                k -= cnt[i] % k;
-                n -= cnt[i];
+            String result ="";
+            int j = 0;
+            while (j < 26 && cnt[j] == 0){
+                j++;
             }
-            out.println();
+            if (cnt[j] < k){
+                while (k > 0 && k > cnt[j]){
+                    k -= cnt[j++];
+                }
+                result += (char)('a' + j);
+            }
+            else if (cnt[j] > k){
+                if (cnt[j] != n) {
+                    result += add((char) ('a' + j), cnt[j] - (k - 1));
+                    for (int x = j + 1; x < 26; x++) {
+                        result += add((char) ('a' + x), cnt[x]);
+                    }
+                }
+                else{
+                    result +=  add((char) ('a' + j), cnt[j] / k + (cnt[j] % k == 0 ? 0 : 1));
+                }
+            }
+            else{
+                int au = cnt[j];
+                result += add((char)('a' + j), 1);
+                j++;
+                while (j < 26 && cnt[j] == 0){
+                    j++;
+                }
+                if (j < 26){
+                    if (au + cnt[j] == n){
+                        result += add((char)('a'+ j), cnt[j] / k + (cnt[j] % k == 0 ? 0 : 1));
+                    }
+                    else{
+                        for (int x = j; x < 26; x++){
+                            result += add((char)('a' + x), cnt[x]);
+                        }
+                    }
+                }
+            }
+            out.println(result);
         }
+    }
+
+    private String add(char c, int cnt) {
+        String result = "";
+        while (cnt > 0){
+            result += c;
+            cnt--;
+        }
+        return result;
     }
 }
 
